@@ -14,11 +14,14 @@
     <meta name="author" content="Jabronis">
     <link href="../css/bootstrap.css" rel="stylesheet">
     <link href='../css/maincss.css' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="../../Jabronis/js/jquery.min.js" type="text/javascript"></script>
     <script src="../../Jabronis/js/bootstrap.js"></script>
     <script src="../../Jabronis/js/jabronis.js"></script>
 </head>
 <body>
+    <div id="page-cover">
+    </div>
     <div class="container-fluid text-center">
         <div class="row col-lg-10 logoDiv">
             <div class="col-md-3">
