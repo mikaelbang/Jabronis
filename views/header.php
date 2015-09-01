@@ -22,8 +22,8 @@
 <body>
     <div id="page-cover">
     </div>
-    <div class="container-fluid text-center">
-        <div class="row col-lg-10 logoDiv">
+    <div class="container-fluid text-center wrapper">
+        <div class="row col-lg-10 col-lg-offset-1 logoDiv">
             <div class="col-md-3">
                 <img class="headLogo" src="../img/vektorTRY2.png">
             </div>
@@ -31,7 +31,7 @@
                 <p class="headLogoText">JABRONIS HOCKEY CLUB</p>
             </div>
         </div>
-        <div class="row col-lg-10">
+        <div class="row col-lg-10 col-lg-offset-1">
             <nav class="navbar navbar-default">
                 <div class="container-fluid">
                     <!-- Brand and toggle get grouped for better mobile display -->
@@ -66,5 +66,5 @@
                 </div><!-- /.container-fluid -->
             </nav>
         </div>
-        <div class="row col-lg-10">
+        <div class="row col-lg-10 col-lg-offset-1">
             <div class="row col-sm-12 allContent">

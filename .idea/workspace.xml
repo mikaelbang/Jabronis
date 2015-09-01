@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94b0b810-d6ed-49c4-a638-d0c8b3ebfe87" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jabronis.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap.js" afterPath="$PROJECT_DIR$/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/footer.php" afterPath="$PROJECT_DIR$/views/footer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/nyheter.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/header.php" afterPath="$PROJECT_DIR$/views/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/maincss.css" afterPath="$PROJECT_DIR$/css/maincss.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/spelare.php" afterPath="$PROJECT_DIR$/views/spelare.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Jabronis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,10 +28,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="spelare.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/spelare.php">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="10" selection-start="2576" selection-end="2576" vertical-scroll-proportion="0.9480969" vertical-offset="457" max-vertical-offset="3255">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1455">
               <folding />
             </state>
           </provider>
@@ -42,7 +40,7 @@
       <file leaf-file-name="maincss.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/maincss.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="20" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="6975">
+            <state line="11" column="0" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7065">
               <folding />
             </state>
           </provider>
@@ -51,7 +49,25 @@
       <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="91" selection-start="479" selection-end="479" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="1065">
+            <state line="69" column="50" selection-start="3337" selection-end="3337" vertical-scroll-proportion="-19.708334" vertical-offset="487" max-vertical-offset="1065">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nyheter.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/nyheter.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="591">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="520" selection-end="520" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="315">
               <folding />
             </state>
           </provider>
@@ -81,12 +97,12 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/views/header.php" />
         <option value="$PROJECT_DIR$/js/bootstrap.js" />
         <option value="$PROJECT_DIR$/js/jabronis.js" />
+        <option value="$PROJECT_DIR$/views/spelare.php" />
         <option value="$PROJECT_DIR$/css/maincss.css" />
         <option value="$PROJECT_DIR$/views/footer.php" />
-        <option value="$PROJECT_DIR$/views/spelare.php" />
+        <option value="$PROJECT_DIR$/views/header.php" />
       </list>
     </option>
   </component>
@@ -197,14 +213,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="44" width="1280" height="712" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -259,13 +275,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="91" selection-start="479" selection-end="479" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="1065">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/jabronis.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="0" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
@@ -275,23 +284,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/footer.php">
+    <entry file="file://$PROJECT_DIR$/views/spelare.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="36" selection-start="303" selection-end="303" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="315">
+        <state line="40" column="18" selection-start="1741" selection-end="1741" vertical-scroll-proportion="-5.9583335" vertical-offset="457" max-vertical-offset="3255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1455">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/maincss.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="20" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="6975">
+        <state line="11" column="0" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7065">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/spelare.php">
+    <entry file="file://$PROJECT_DIR$/views/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="10" selection-start="2576" selection-end="2576" vertical-scroll-proportion="0.9480969" vertical-offset="457" max-vertical-offset="3255">
+        <state line="14" column="0" selection-start="520" selection-end="520" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="50" selection-start="3337" selection-end="3337" vertical-scroll-proportion="-19.708334" vertical-offset="487" max-vertical-offset="1065">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/nyheter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
           <folding />
         </state>
       </provider>

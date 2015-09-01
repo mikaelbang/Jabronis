@@ -9,6 +9,14 @@ body{
     background-attachment: fixed;
 }
 
+
+
+.wrapper{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #page-cover {
     display: none;
     position: fixed;
@@ -104,7 +112,6 @@ body{
     text-align: left;
 }
 
-
 .logoDiv{
     margin-top: 10px;
     margin-bottom: 10px;
@@ -126,7 +133,6 @@ body{
 .navbar-default{
     background-color: #136d2d;
     border-color: #136d2d;
-
 }
 
 @media (min-width: 768px){
