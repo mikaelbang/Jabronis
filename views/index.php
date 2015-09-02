@@ -95,7 +95,7 @@
             <img src="../img/thirdJersey.png" class="middlePic">
         </div>
         <div class="col-md-4 middleBorder">
-            <img src="../img/colorado.png" class="middlePic">
+            <img src="../img/away.png" class="middlePic">
         </div>
         <div class="col-md-4 middleBorder">
             <img src="../img/colorado.png" class="middlePic">
