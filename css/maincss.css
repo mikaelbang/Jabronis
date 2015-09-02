@@ -583,3 +583,12 @@ body{
     letter-spacing: 0;
 }
 
+.tableItemText{
+    letter-spacing: 0;
+    font-size: 13px;
+}
+
+.nothingToRead{
+    color: grey;
+}
+

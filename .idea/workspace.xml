@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94b0b810-d6ed-49c4-a638-d0c8b3ebfe87" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/spelschema.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jabronis.js" afterPath="$PROJECT_DIR$/js/jabronis.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/header.php" afterPath="$PROJECT_DIR$/views/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/maincss.css" afterPath="$PROJECT_DIR$/css/maincss.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/spelare.php" afterPath="$PROJECT_DIR$/views/spelare.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/spelschema.php" afterPath="$PROJECT_DIR$/views/spelschema.php" />
     </list>
     <ignored path="Jabronis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,16 +39,16 @@
       <file leaf-file-name="maincss.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/maincss.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="582" column="21" selection-start="8962" selection-end="8962" vertical-scroll-proportion="0.0" vertical-offset="8188" max-vertical-offset="8865">
+            <state line="592" column="1" selection-start="9064" selection-end="9064" vertical-scroll-proportion="0.0" vertical-offset="8338" max-vertical-offset="9000">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spelschema.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="spelschema.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/spelschema.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="28" selection-start="736" selection-end="736" vertical-scroll-proportion="0.65989846" vertical-offset="0" max-vertical-offset="591">
+            <state line="37" column="48" selection-start="1608" selection-end="1608" vertical-scroll-proportion="-16.5" vertical-offset="159" max-vertical-offset="750">
               <folding />
             </state>
           </provider>
@@ -76,10 +74,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="header.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="50" selection-start="1101" selection-end="1101" vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="1065">
+            <state line="55" column="63" selection-start="2820" selection-end="2820" vertical-scroll-proportion="0.5449827" vertical-offset="435" max-vertical-offset="1065">
               <folding />
             </state>
           </provider>
@@ -113,12 +111,12 @@
         <option value="$PROJECT_DIR$/Router.php" />
         <option value="$PROJECT_DIR$/controllers/authcontroller.php" />
         <option value="$PROJECT_DIR$/views/kontakt.php" />
-        <option value="$PROJECT_DIR$/views/header.php" />
         <option value="$PROJECT_DIR$/views/index.php" />
         <option value="$PROJECT_DIR$/js/jabronis.js" />
         <option value="$PROJECT_DIR$/views/spelare.php" />
-        <option value="$PROJECT_DIR$/views/spelschema.php" />
         <option value="$PROJECT_DIR$/css/maincss.css" />
+        <option value="$PROJECT_DIR$/views/spelschema.php" />
+        <option value="$PROJECT_DIR$/views/header.php" />
       </list>
     </option>
   </component>
@@ -344,13 +342,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="50" selection-start="1101" selection-end="1101" vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="1065">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="58" selection-start="544" selection-end="544" vertical-scroll-proportion="-5.0" vertical-offset="45" max-vertical-offset="1500">
@@ -376,14 +367,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/maincss.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="582" column="21" selection-start="8962" selection-end="8962" vertical-scroll-proportion="0.0" vertical-offset="8188" max-vertical-offset="8865">
+        <state line="592" column="1" selection-start="9064" selection-end="9064" vertical-scroll-proportion="0.0" vertical-offset="8338" max-vertical-offset="9000">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/spelschema.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="28" selection-start="736" selection-end="736" vertical-scroll-proportion="0.65989846" vertical-offset="0" max-vertical-offset="591">
+        <state line="37" column="48" selection-start="1608" selection-end="1608" vertical-scroll-proportion="-16.5" vertical-offset="159" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="63" selection-start="2820" selection-end="2820" vertical-scroll-proportion="0.5449827" vertical-offset="435" max-vertical-offset="1065">
           <folding />
         </state>
       </provider>

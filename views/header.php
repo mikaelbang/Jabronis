@@ -53,7 +53,7 @@
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Scheman <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="#">Matcher</a></li>
-                                    <li><a href="#">Spelschema</a></li>
+                                    <li><a href="spelschema.php">Spelschema</a></li>
                                     <li><a href="#">Träning</a></li>
                                 </ul>
                             </li>
