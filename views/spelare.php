@@ -141,7 +141,7 @@
     </div>
     <div class="col-md-3 player">
         <div class="playerImg">
-            <img src="../img/anonym.png" class="playerPic">
+            <img src="../img/mickebig.png" class="playerPic">
         </div>
         <div class="playerNr">
             <p class="playerNrText">20</p>
@@ -185,7 +185,7 @@
     </div>
     <div class="col-md-3 player">
         <div class="playerImg">
-            <img src="../img/anonym.png" class="playerPic">
+            <img src="../img/richardbig.png" class="playerPic">
         </div>
         <div class="playerNr">
             <p class="playerNrText">91</p>

@@ -87,7 +87,19 @@
             </div>
         </div>
     </div>
+    <div class="col-sm-11 galleri">
+       <a href="#"><img src="../img/galleri.png" class="galleriPic"></a>
+    </div>
     <div class="row col-md-12">
+        <div class="col-md-4 middleBorder">
+            <img src="../img/thirdJersey.png" class="middlePic">
+        </div>
+        <div class="col-md-4 middleBorder">
+            <img src="../img/colorado.png" class="middlePic">
+        </div>
+        <div class="col-md-4 middleBorder">
+            <img src="../img/colorado.png" class="middlePic">
+        </div>
     </div>
     <div class="row col-md-10 col-md-offset-1 addBorder">
         <div class="col-md-3">
