@@ -25,10 +25,10 @@
     <div class="container-fluid text-center wrapper">
         <div class="row col-lg-10 col-lg-offset-1 logoDiv">
             <div class="col-md-3">
-                <img class="headLogo" src="../img/vektorTRY2.png">
+                <a href="../views/index.php" class="noStyle"><img class="headLogo" src="../img/vektorTRY2.png"></a>
             </div>
             <div class="col-md-9">
-                <p class="headLogoText">JABRONIS HOCKEY CLUB</p>
+                <a class="noStyle" href="index.php"><p class="headLogoText">JABRONIS HOCKEY CLUB</p></a>
             </div>
         </div>
         <div class="row col-lg-10 col-lg-offset-1">
@@ -42,13 +42,13 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#">JABRONIS</a>
+                        <a class="navbar-brand" href="../views/index.php">JABRONIS</a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li><a href="#">Spelare <span class="sr-only">(current)</span></a></li>
+                            <li><a href="../views/spelare.php">Spelare <span class="sr-only">(current)</span></a></li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Scheman <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
@@ -57,7 +57,7 @@
                                     <li><a href="#">Träning</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">Kontakta oss</a></li>
+                            <li><a href="../views/kontakt.php">Kontakta oss</a></li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right play">
                             <li><a href="#">PLAY</a></li>
