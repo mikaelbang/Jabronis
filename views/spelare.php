@@ -1,4 +1,5 @@
 <?php include 'header.php'?>
+
 <div id="singlePlayerContent">
     <div id="singlePlayer">
         <div class="row">
