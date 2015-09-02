@@ -9,13 +9,16 @@
 include_once "Database.php";
 
 Class Test{
+    public function indexAction(){
+        require_once "../views/index.php";
 
-     public function indexAction(){
-         $db = new Database();
-         $query = "SELECT * FROM players";
-         $result = $db->getRows($query);
-
-         var_dump($result);
      }
+    public function testAction(){
+        $db = new Database();
+        $query = "SELECT * FROM players";
+        $result = $db->getRows($query);
+
+        var_dump($result);
+    }
 
 }
