@@ -9,7 +9,114 @@ body{
     background-attachment: fixed;
 }
 
+.noStyle{
+    text-decoration: none;
+}
 
+.noStyle:hover{
+    text-decoration: none;
+}
+
+.wrapper{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#page-cover {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+}
+
+.closeButton{
+    padding: 5px;
+    margin-right: 19px;
+    margin-top: 5px;
+    color: #e96000;
+}
+
+.closeButton:hover{
+    opacity: 0.8;
+}
+
+#singlePlayerContent{
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    display: none;
+
+}
+
+#singlePlayer{
+    width: 600px;
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    box-shadow:  3px 5px 8px 4px rgba(0,0,0,0.5);
+}
+
+.singlePlayerPic{
+    padding-top: 15px;
+    margin-left: 5px;
+}
+
+.singlePlayerImg{
+    width: 213px;
+}
+
+.singlePlayerName{
+
+}
+
+.singleName{
+    margin-left: 15px;
+    padding-top: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.singlePlayerInfo{
+    background-color: #e4e3e2;
+}
+
+.leftInfo{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.rightInfo{
+    display: inline-block;
+    margin-left: 50px;
+    float: right;
+    padding-right: 20px;
+}
+
+.infoTable{
+    text-align: left;
+    letter-spacing: 0;
+}
+
+.top{
+    padding-top: 5px;
+}
+
+.infoContent{
+    letter-spacing: 0;
+    border-top: 1px solid #cccccc;
+    margin-left: 35px;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #cccccc;
+    text-align: left;
+}
 
 .logoDiv{
     margin-top: 10px;
@@ -32,7 +139,6 @@ body{
 .navbar-default{
     background-color: #136d2d;
     border-color: #136d2d;
-
 }
 
 @media (min-width: 768px){
@@ -61,6 +167,7 @@ body{
 
 .nav > li{
     margin-top: -1px;
+    z-index: 999;
 }
 
 .nav > li:hover{
@@ -136,6 +243,12 @@ body{
 
 .navbar-default .navbar-nav > li > a {
     background-color: #136d2d;
+    z-index: 999;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    z-index: 1001;
+    background-color: #115726;
 }
 
 @media (max-width: 767px){
@@ -165,7 +278,17 @@ body{
     margin-left: 0px;
     padding-bottom: 20px;
     margin-right: 0;
-    margin-bottom: 100px;
+}
+
+.footerContent{
+    padding-bottom: 100px;
+}
+
+.footerText{
+    color: #ffffff;
+    font-size: 10px;
+    padding-top: 15px;
+    letter-spacing: 0;
 }
 
 .frameContent{
@@ -174,6 +297,18 @@ body{
 .newsPic{
     max-width: 600px;
     max-height: 336px;
+}
+
+.img2{
+    display: none;
+}
+
+.img3{
+    display: none;
+}
+
+.img4{
+    display: none;
 }
 
 .picHeadline{
@@ -299,3 +434,169 @@ body{
 }
 
 
+.goalieHeadline{
+    font-size: 30px;
+    letter-spacing: 0;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.playerPic{
+    width: 213px;
+}
+
+.playerNr{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-color: #136d2d;
+}
+
+.playerName{
+    display: inline-block;
+    width: 183px;
+    height: 30px;
+    background-color: #e96000;
+    margin-left: -6px;
+}
+
+.playerNrText{
+    color: white;
+    text-align: center;
+    margin-top: 4;
+}
+
+.playerNameText{
+    color: #ffffff;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 4;
+}
+
+.infoBorder{
+}
+
+.player{
+    margin-bottom: 20px;
+}
+
+.player:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.archiveHeadline{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.archiveHeadlineText{
+    line-height: 1.2;
+    letter-spacing: 0;
+}
+
+.underHeadline{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.underHeadlineText{
+    letter-spacing: 0;
+    line-height: 1.2;
+}
+
+.newsContent{
+    text-align: left;
+    margin-left: 20px;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 20px;
+}
+
+.articleDate{
+    text-align: left;
+    margin-left: 20px;
+    padding-top: 5px;
+    font-size: 10px;
+    letter-spacing: 0;
+}
+
+.contact{
+    margin-bottom: 20px;
+}
+
+.contactHeadline{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0;
+}
+
+.contactName{
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.contactMail{
+    margin-top: -10px;
+}
+
+.formHeadline{
+    text-align: left;
+}
+
+.contactFormName{
+    width: 100%;
+    outline: none;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 15px;
+    border: 1px solid grey;
+}
+
+.formTextarea{
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+    height: 80px;
+    outline: none;
+}
+
+.sendButton{
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+    background-color: #e96000;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+.sendButton:active{
+    opacity: 0.8;
+}
+
+.tableItem{
+    font-weight: bold;
+    letter-spacing: 0;
+}
+
+.tableItemText{
+    letter-spacing: 0;
+    font-size: 13px;
+}
+
+.nothingToRead{
+    color: grey;
+}
+
+.addBorder{
+    border-top: 1px solid grey;
+    padding-top: 10px;
+}
+
+.sponsorPic{
+    height: 30px;
+}
