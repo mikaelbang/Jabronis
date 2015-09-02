@@ -88,7 +88,17 @@
         </div>
     </div>
     <div class="row col-md-12">
-
+    </div>
+    <div class="row col-md-10 col-md-offset-1 addBorder">
+        <div class="col-md-3">
+            <img src="../img/cheesit.png" class="sponsorPic">
+        </div>
+        <div class="col-md-2">
+            <img src="../img/rmbFirstLogo.png" class="sponsorPic">
+        </div>
+        <div class="col-md-3">
+            <img src="../img/panda.png" class="sponsorPic">
+        </div>
     </div>
 
 <?php include 'footer.php';?>

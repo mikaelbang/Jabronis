@@ -592,3 +592,11 @@ body{
     color: grey;
 }
 
+.addBorder{
+    border-top: 1px solid grey;
+    padding-top: 10px;
+}
+
+.sponsorPic{
+    height: 30px;
+}
