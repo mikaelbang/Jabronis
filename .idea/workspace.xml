@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94b0b810-d6ed-49c4-a638-d0c8b3ebfe87" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Router.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.php" afterPath="$PROJECT_DIR$/views/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/maincss.css" afterPath="$PROJECT_DIR$/css/maincss.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/spelare.php" afterPath="$PROJECT_DIR$/views/spelare.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Jabronis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,7 +28,7 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="17" selection-start="4150" selection-end="4150" vertical-scroll-proportion="0.37716264" vertical-offset="1132" max-vertical-offset="1830">
+            <state line="97" column="33" selection-start="4450" selection-end="4450" vertical-scroll-proportion="0.35121107" vertical-offset="1252" max-vertical-offset="1830">
               <folding />
             </state>
           </provider>
@@ -41,7 +37,7 @@
       <file leaf-file-name="maincss.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/maincss.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="608" column="26" selection-start="9294" selection-end="9294" vertical-scroll-proportion="0.0" vertical-offset="8818" max-vertical-offset="9420">
+            <state line="139" column="29" selection-start="2103" selection-end="2109" vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="9420">
               <folding />
             </state>
           </provider>
@@ -167,20 +163,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Jabronis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Jabronis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Jabronis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -341,14 +323,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/maincss.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="608" column="26" selection-start="9294" selection-end="9294" vertical-scroll-proportion="0.0" vertical-offset="8818" max-vertical-offset="9420">
+        <state line="139" column="29" selection-start="2103" selection-end="2109" vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="9420">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="17" selection-start="4150" selection-end="4150" vertical-scroll-proportion="0.37716264" vertical-offset="1132" max-vertical-offset="1830">
+        <state line="97" column="33" selection-start="4450" selection-end="4450" vertical-scroll-proportion="0.35121107" vertical-offset="1252" max-vertical-offset="1830">
           <folding />
         </state>
       </provider>
