@@ -88,14 +88,14 @@
         </div>
     </div>
     <div class="col-sm-11 galleri">
-       <a href="#"><img src="../img/galleri.png" class="galleriPic"></a>
+       <a href="galleri.php"><img src="../img/galleri.png" class="galleriPic"></a>
     </div>
     <div class="row col-md-12">
         <div class="col-md-4 middleBorder">
             <img src="../img/thirdJersey.png" class="middlePic">
         </div>
         <div class="col-md-4 middleBorder">
-            <img src="../img/away.png" class="middlePic">
+            <img src="../img/awaysecond.png" class="middlePic">
         </div>
         <div class="col-md-4 middleBorder">
             <img src="../img/colorado.png" class="middlePic">

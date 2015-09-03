@@ -620,3 +620,45 @@ body{
 .galleriPic{
     width: 925px;
 }
+
+.smallPics{
+    cursor: pointer;
+    width: 130px;
+    margin-bottom: 15px;
+    margin-left: -35px;
+}
+
+.next {
+    float:right;
+    text-align:right;
+    margin-right: 20px;
+    margin-top: 8px;
+}
+
+.previous{
+    float: left;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.controls{
+    text-align: center;
+    display:block;
+    font-size: 20px;
+    color: #e96000;
+}
+
+.controls:hover{
+    color: #136d2d;
+}
+
+.galleriHeadline{
+    letter-spacing: 0;
+    font-size: 20;
+}
+
+.footerRight{
+    float: right;
+}
+
+
