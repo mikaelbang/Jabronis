@@ -105,14 +105,14 @@
         <div class="col-md-3">
             <a href="http://www.chessit.se" class="noStyle"><img src="/jabronis/img/cheesit.png" class="sponsorPic"></a>
         </div>
+        <div class="col-md-3">
+            <a href="http://www.pandawebb.se" class="noStyle"><img src="/jabronis/img/panda.png" class="sponsorPic"></a>
+        </div>
+        <div class="col-md-3">
+            <a href="http://www.lookingglassdenim.com" class="noStyle"><img src="/jabronis/img/lgdnm.png" class="sponsorPic"></a>
+        </div>
         <div class="col-md-2">
-            <img src="/jabronis/img/rmbFirstLogo.png" class="sponsorPic">
-        </div>
-        <div class="col-md-3">
-            <a href="http://www.pandawebb.se" class="noStyle"><img src="/jabronis/img/panda.png" class="sponsorPic">
-        </div>
-        <div class="col-md-3">
-            <a href="http://www.lookingglassdenim.com" class="noStyle"><img src="/jabronis/img/lgdnm.png" class="sponsorPic">
+            <a href="http://freewaterpictures.se" class="noStyle"><img src="/jabronis/img/freewater.png" class="sponsorPic"></a>
         </div>
     </div>
 

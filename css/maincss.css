@@ -306,6 +306,7 @@ body{
 .newsPic{
     max-width: 600px;
     max-height: 336px;
+    min-height: 336px;
 }
 
 .img2{
@@ -636,10 +637,13 @@ body{
 
 .smallPics{
     cursor: pointer;
-    width: 130px;
+    max-width: 130px;
     margin-bottom: 15px;
     margin-left: -35px;
+    max-height: 72px;
+
 }
+
 
 .smallPics:hover{
     opacity: 0.8;
@@ -686,5 +690,9 @@ a:focus{
     -webkit-user-select: none;
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+ */
+}
+
+.bigGalleriPic{
+    margin: 0 auto;
 }
 

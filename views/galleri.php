@@ -5,9 +5,11 @@
             <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="smallPics" src="/jabronis/img/huddle600x336.png"/></li>
             <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="smallPics" src="/jabronis/img/blackandwhite600x336.png"/></li>
             <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="smallPics" src="/jabronis/img/closeup600x336.png"/></li>
-            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="smallPics" src="/jabronis/img/shooting600x336.png"/></li>
+            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="smallPics" src="/jabronis/img/patattack600x336.png"/></li>
+            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="smallPics" src="/jabronis/img/johanback600x336.png"/></li>
             <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="smallPics" src="/jabronis/img/stommen.png"/></li>
             <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="smallPics" src="/jabronis/img/shooting600x336.png"/></li>
+            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="smallPics" src="/jabronis/img/henkrill600x336.png"/></li>
             <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="smallPics" src="/jabronis/img/shooting600x336.png"/></li>
 
 
