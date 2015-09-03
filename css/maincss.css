@@ -48,7 +48,7 @@ body{
 }
 
 #singlePlayerContent{
-    width: 100%;
+    width: 76.6%;
     position: fixed;
     z-index: 1000;
     display: none;

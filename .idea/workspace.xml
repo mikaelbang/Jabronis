@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94b0b810-d6ed-49c4-a638-d0c8b3ebfe87" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/galleri.php" afterPath="$PROJECT_DIR$/views/galleri.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.php" afterPath="$PROJECT_DIR$/views/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jabronis.js" afterPath="$PROJECT_DIR$/js/jabronis.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/maincss.css" afterPath="$PROJECT_DIR$/css/maincss.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/spelare.php" afterPath="$PROJECT_DIR$/views/spelare.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Jabronis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,19 +34,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="galleri.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="galleri.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/galleri.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="44" selection-start="1526" selection-end="1526" vertical-scroll-proportion="0.49307957" vertical-offset="0" max-vertical-offset="578">
+            <state line="19" column="44" selection-start="1526" selection-end="1526" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="495">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="maincss.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="maincss.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/maincss.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="295" column="22" selection-start="4724" selection-end="4724" vertical-scroll-proportion="0.0" vertical-offset="4185" max-vertical-offset="10560">
+            <state line="68" column="21" selection-start="1105" selection-end="1105" vertical-scroll-proportion="0.77242523" vertical-offset="555" max-vertical-offset="10560">
               <folding />
             </state>
           </provider>
@@ -60,7 +55,7 @@
       <file leaf-file-name="spelare.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/spelare.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="26" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="3270">
+            <state line="21" column="26" selection-start="1040" selection-end="1040" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="3270">
               <folding />
             </state>
           </provider>
@@ -120,8 +115,8 @@
         <option value="$PROJECT_DIR$/views/spelare.php" />
         <option value="$PROJECT_DIR$/js/jabronis.js" />
         <option value="$PROJECT_DIR$/views/index.php" />
-        <option value="$PROJECT_DIR$/css/maincss.css" />
         <option value="$PROJECT_DIR$/views/galleri.php" />
+        <option value="$PROJECT_DIR$/css/maincss.css" />
       </list>
     </option>
   </component>
@@ -444,13 +439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/spelare.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="26" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="3270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="59" column="63" selection-start="3080" selection-end="3080" vertical-scroll-proportion="0.0" vertical-offset="885" max-vertical-offset="1140">
@@ -467,6 +455,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/galleri.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="44" selection-start="1526" selection-end="1526" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="12" selection-start="143" selection-end="156" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="1875">
@@ -474,16 +469,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/maincss.css">
+    <entry file="file://$PROJECT_DIR$/views/spelare.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="295" column="22" selection-start="4724" selection-end="4724" vertical-scroll-proportion="0.0" vertical-offset="4185" max-vertical-offset="10560">
+        <state line="21" column="26" selection-start="1040" selection-end="1040" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="3270">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/galleri.php">
+    <entry file="file://$PROJECT_DIR$/css/maincss.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="44" selection-start="1526" selection-end="1526" vertical-scroll-proportion="0.49307957" vertical-offset="0" max-vertical-offset="578">
+        <state line="68" column="21" selection-start="1105" selection-end="1105" vertical-scroll-proportion="0.77242523" vertical-offset="555" max-vertical-offset="10560">
           <folding />
         </state>
       </provider>
