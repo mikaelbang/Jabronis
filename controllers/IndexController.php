@@ -8,17 +8,29 @@
 
 include_once "Database.php";
 
-Class Test{
+Class Testcontroller{
     public function indexAction(){
-        require_once "../views/index.php";
-
+        require_once "views/index.php";
      }
+
+    public function playersAction(){
+        require_once "views/spelare.php";
+    }
+
+    public function scheduleAction(){
+        require_once "views/spelschema.php";
+    }
+
+    public function contactAction(){
+        require_once "views/kontakt.php";
+    }
+
     public function testAction(){
         $db = new Database();
-        $query = "SELECT * FROM players";
+        $query = "SELECT * FROM articles";
         $result = $db->getRows($query);
 
-        var_dump($result);
+        echo(json_encode($result));
     }
 
 }
