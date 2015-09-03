@@ -696,3 +696,19 @@ a:focus{
     margin: 0 auto;
 }
 
+.failHeadline{
+    font-size: 40px;
+    letter-spacing: 0;
+}
+
+.failText{
+    font-size: 20px;
+    letter-spacing: 0;
+}
+
+.failContent{
+    margin-left: 40px;
+}
+
+
+

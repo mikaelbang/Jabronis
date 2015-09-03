@@ -42,4 +42,9 @@ Class Testcontroller{
 
     }
 
+    public function failAction(){
+        require_once "views/404.php";
+
+    }
+
 }

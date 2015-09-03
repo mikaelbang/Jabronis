@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94b0b810-d6ed-49c4-a638-d0c8b3ebfe87" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/404.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/IndexController.php" afterPath="$PROJECT_DIR$/controllers/IndexController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/maincss.css" afterPath="$PROJECT_DIR$/css/maincss.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Jabronis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,17 +49,28 @@
       <file leaf-file-name="maincss.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/maincss.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="21" selection-start="1105" selection-end="1105" vertical-scroll-proportion="0.77242523" vertical-offset="555" max-vertical-offset="10560">
+            <state line="703" column="10" selection-start="10528" selection-end="10528" vertical-scroll-proportion="0.7009967" vertical-offset="10123" max-vertical-offset="10800">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spelare.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/spelare.php">
+      <file leaf-file-name="404.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/404.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="26" selection-start="1040" selection-end="1040" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="3270">
+            <state line="2" column="33" selection-start="52" selection-end="63" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="195">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/IndexController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="0" selection-start="579" selection-end="579" vertical-scroll-proportion="-15.25" vertical-offset="39" max-vertical-offset="750">
+              <folding>
+                <marker date="1441308624000" expanded="true" signature="307:328" placeholder="SELECT * FRO..players..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,15 +91,6 @@
               <folding>
                 <marker date="1441303975000" expanded="false" signature="1708:1745" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kontakt.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/kontakt.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="46" selection-start="2059" selection-end="2059" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="885">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -111,11 +116,12 @@
         <option value="$PROJECT_DIR$/Router.php" />
         <option value="$PROJECT_DIR$/views/nyheter.php" />
         <option value="$PROJECT_DIR$/views/header.php" />
-        <option value="$PROJECT_DIR$/controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/views/spelare.php" />
         <option value="$PROJECT_DIR$/js/jabronis.js" />
         <option value="$PROJECT_DIR$/views/index.php" />
         <option value="$PROJECT_DIR$/views/galleri.php" />
+        <option value="$PROJECT_DIR$/controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/views/404.php" />
         <option value="$PROJECT_DIR$/css/maincss.css" />
       </list>
     </option>
@@ -168,6 +174,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Jabronis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Jabronis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Jabronis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -413,13 +433,6 @@
         <state line="4" column="32" selection-start="138" selection-end="138" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="1365" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="673" selection-end="673" vertical-scroll-proportion="-17.5" vertical-offset="75" max-vertical-offset="675">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/spelschema.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="81" selection-start="1489" selection-end="1489" vertical-scroll-proportion="0.60739434" vertical-offset="150" max-vertical-offset="750">
@@ -455,13 +468,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/galleri.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="44" selection-start="1526" selection-end="1526" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="495">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="12" selection-start="143" selection-end="156" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="1875">
@@ -476,9 +482,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/galleri.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="44" selection-start="1526" selection-end="1526" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/404.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="33" selection-start="52" selection-end="63" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="195">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="579" selection-end="579" vertical-scroll-proportion="-15.25" vertical-offset="39" max-vertical-offset="750">
+          <folding>
+            <marker date="1441308624000" expanded="true" signature="307:328" placeholder="SELECT * FRO..players..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/maincss.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="21" selection-start="1105" selection-end="1105" vertical-scroll-proportion="0.77242523" vertical-offset="555" max-vertical-offset="10560">
+        <state line="703" column="10" selection-start="10528" selection-end="10528" vertical-scroll-proportion="0.7009967" vertical-offset="10123" max-vertical-offset="10800">
           <folding />
         </state>
       </provider>
