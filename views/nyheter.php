@@ -2,7 +2,7 @@
 
     <div class="row col-md-8 frameContent">
         <div class="newsFrame">
-            <img src="../img/huddle600x336.png" class="newsPic">
+            <img src="/jabronis/img/huddle600x336.png" class="newsPic">
         </div>
         <div class="archiveHeadline">
             <h1 class="archiveHeadlineText">Nyhetens lite längre Rubrik och om den är ännu längre</h1>

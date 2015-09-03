@@ -8,9 +8,9 @@
 
 include_once "Database.php";
 
-Class Test{
+Class Testcontroller{
     public function indexAction(){
-        require_once "../views/index.php";
+        require_once "views/index.php";
 
      }
     public function testAction(){
@@ -19,6 +19,27 @@ Class Test{
         $result = $db->getRows($query);
 
         var_dump($result);
+    }
+
+    public function galleriAction(){
+        require_once "views/galleri.php";
+
+    }
+
+    public function spelareAction(){
+        require_once "views/spelare.php";
+
+    }
+
+    public function spelschemaAction(){
+        require_once "views/spelschema.php";
+
+    }
+
+
+    public function kontaktAction(){
+        require_once "views/kontakt.php";
+
     }
 
 }
