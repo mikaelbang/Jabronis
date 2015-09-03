@@ -86,8 +86,6 @@ $(document).ready(function(){
 
 $(document).on('click', 'a.controls', function(){
     //this is where we add our logic
-    return false;
-
     var index = $(this).attr('href');
     var src = $('ul.row li:nth-child('+ index +') img').attr('src');
     $('.modal-body img').attr('src', src);
@@ -116,4 +114,12 @@ $(document).on('click', 'a.controls', function(){
     }else{
         $('a.previous').show()
     }
+    $('#myModal').on('shown.bs.modal', function(){
+        $('#myModal .modal-body').html(html);
+        //this will hide or show the right links:
+        $('a.controls').trigger('click');
+    })
+
+    return false;
+
 });
