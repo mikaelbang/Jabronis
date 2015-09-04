@@ -4,6 +4,7 @@
     <list default="true" id="94b0b810-d6ed-49c4-a638-d0c8b3ebfe87" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.php" afterPath="$PROJECT_DIR$/views/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/maincss.css" afterPath="$PROJECT_DIR$/css/maincss.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Jabronis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="91" selection-start="3079" selection-end="3079" vertical-scroll-proportion="0.3252595" vertical-offset="787" max-vertical-offset="1875">
+            <state line="92" column="34" selection-start="4338" selection-end="4338" vertical-scroll-proportion="-9.083333" vertical-offset="1162" max-vertical-offset="1875">
               <folding />
             </state>
           </provider>
@@ -53,10 +54,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="maincss.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="maincss.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/maincss.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="419" column="23" selection-start="6731" selection-end="6731" vertical-scroll-proportion="0.0" vertical-offset="5805" max-vertical-offset="10875">
+            <state line="652" column="1" selection-start="9890" selection-end="9890" vertical-scroll-proportion="0.6458333" vertical-offset="9408" max-vertical-offset="11130">
               <folding />
             </state>
           </provider>
@@ -126,8 +127,8 @@
         <option value="$PROJECT_DIR$/views/spelschema.php" />
         <option value="$PROJECT_DIR$/Router.php" />
         <option value="$PROJECT_DIR$/views/footer.php" />
-        <option value="$PROJECT_DIR$/css/maincss.css" />
         <option value="$PROJECT_DIR$/views/index.php" />
+        <option value="$PROJECT_DIR$/css/maincss.css" />
       </list>
     </option>
   </component>
@@ -449,13 +450,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/galleri.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="44" selection-start="1526" selection-end="1526" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="495">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/404.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="33" selection-start="52" selection-end="63" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="195">
@@ -486,13 +480,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/maincss.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="419" column="23" selection-start="6731" selection-end="6731" vertical-scroll-proportion="0.0" vertical-offset="5805" max-vertical-offset="10875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/spelschema.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="17" selection-start="1544" selection-end="1545" vertical-scroll-proportion="-10.8" vertical-offset="0" max-vertical-offset="750">
@@ -500,9 +487,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/galleri.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="44" selection-start="1526" selection-end="1526" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="91" selection-start="3079" selection-end="3079" vertical-scroll-proportion="0.3252595" vertical-offset="787" max-vertical-offset="1875">
+        <state line="92" column="34" selection-start="4338" selection-end="4338" vertical-scroll-proportion="-9.083333" vertical-offset="1162" max-vertical-offset="1875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/maincss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="652" column="1" selection-start="9890" selection-end="9890" vertical-scroll-proportion="0.6458333" vertical-offset="9408" max-vertical-offset="11130">
           <folding />
         </state>
       </provider>

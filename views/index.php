@@ -87,10 +87,10 @@
             </div>
         </div>
     </div>
-    <div class="col-sm-11 galleri">
+    <div class="col-sm-12 galleri">
        <a href="/Jabronis/test/galleri"><img src="/jabronis/img/galleri.png" class="galleriPic"></a>
     </div>
-    <div class="row col-md-12">
+    <div class="row middleContent col-md-12">
         <div class="col-md-4 middleBorder">
             <img src="/jabronis/img/thirdJersey.png" class="middlePic">
         </div>
