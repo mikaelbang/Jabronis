@@ -382,7 +382,6 @@ body{
 
 .sideNewsArchive{
     background-color: #ffffff;
-    text-align: left;
     padding-top: 8px;
     height: 38px;
     border-left: 1px solid #ccc;
@@ -476,14 +475,14 @@ body{
 .playerNrText{
     color: white;
     text-align: center;
-    margin-top: 4;
+    margin-top: 4px;
 }
 
 .playerNameText{
     color: #ffffff;
     text-align: left;
     margin-left: 15px;
-    margin-top: 4;
+    margin-top: 4px;
 }
 
 .infoBorder{
@@ -591,12 +590,13 @@ body{
 }
 
 .sendButton:active{
-    opacity: 0.8;
+    background-color: orangered;
 }
 
 .tableItem{
     font-weight: bold;
     letter-spacing: 0;
+    color: #115726;
 }
 
 .tableItemText{
@@ -678,6 +678,7 @@ body{
     font-size: 20;
 }
 
+
 .footerRight{
     float: right;
 }
@@ -708,6 +709,10 @@ a:focus{
 
 .failContent{
     margin-left: 40px;
+}
+
+.footerInfo{
+    display: inline-block;
 }
 
 

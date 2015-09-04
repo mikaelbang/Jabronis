@@ -26,6 +26,5 @@ if(method_exists($controller, $action)){
 else{
     //echo "404" . $controller ." " . $action;
 
-    //require_once "views/404.php";
-    var_dump("faaaaail");
+    require_once "views/404.php";
 }
