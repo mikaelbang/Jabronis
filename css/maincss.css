@@ -405,7 +405,7 @@ body{
     white-space: nowrap;
     overflow:hidden !important;
     text-overflow: ellipsis;
-    width: 100%;
+    width: 99%;
     display: inline-block;
     -webkit-user-select: none;
     -moz-user-select: none; /* Firefox */

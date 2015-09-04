@@ -63,7 +63,7 @@
         </div>
         <div class="row col-md-12 sideNews">
             <div class="sideNewsContent">
-                <p class="sideNewsText"><span class="newsDate">31/08</span>Här är ett exempel exempel exempel exempel exempel bara</p>
+                <p class="sideNewsText"><span class="newsDate">31/08</span>Här är ett litet exempel exempel exempel exempel bara</p>
             </div>
         </div>
         <div class="row col-md-12 sideNews">
