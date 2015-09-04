@@ -2,10 +2,10 @@
 
     <div class="row col-md-8 frameContent">
         <div class="newsFrame">
-            <img src="img/huddle600x336.png" class="newsPic img1">
-            <img src="img/shooting600x336.png" class="newsPic img2">
-            <img src="img/closeup600x336.png" class="newsPic img3">
-            <img src="img/blackandwhite600x336.png" class="newsPic img4">
+            <img src="" class="newsPic img1">
+            <img src="" class="newsPic img2">
+            <img src="" class="newsPic img3">
+            <img src="" class="newsPic img4">
         </div>
         <div class="picHeadline">
             <div class="newsFrameText">
@@ -14,16 +14,16 @@
         </div>
         <div class="miniPics">
             <div class="miniImgs">
-                <img src="img/huddle600x336.png" class="miniImg pic1">
+                <img src="" class="miniImg pic1">
             </div>
             <div class="miniImgs">
-                <img src="img/shooting600x336.png" class="miniImg pic2">
+                <img src="" class="miniImg pic2">
             </div>
             <div class="miniImgs">
-                <img src="img/closeup600x336.png" class="miniImg pic3">
+                <img src="" class="miniImg pic3">
             </div>
             <div class="miniImgs">
-                <img src="img/blackandwhite600x336.png" class="miniImg pic4">
+                <img src="" class="miniImg pic4">
             </div>
         </div>
     </div>
