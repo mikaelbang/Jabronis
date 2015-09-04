@@ -4,7 +4,7 @@
     <div id="singlePlayer">
         <div class="row">
             <div class="col-md-5 singlePlayerPic">
-                <img src="../img/anonym.png" class="singlePlayerImg">
+                <img src="/jabronis/img/anonym.png" class="singlePlayerImg">
             </div>
             <button class="closeButton"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
             </button>
@@ -34,20 +34,20 @@
     <p class="goalieHeadline">Målvakter</p>
     <div class="col-md-3 player text-center">
         <div class="playerImg">
-            <img src="../img/anonym.png" class="playerPic">
+            <img src="/jabronis/img/anonym.png" class="playerPic">
         </div>
         <div class="infoBorder">
             <div class="playerNr">
-                <p class="playerNrText">35</p>
+                <p class="playerNrText goalieNr"></p>
             </div>
             <div class="playerName">
-                <p class="playerNameText">Johan Bäck</p>
+                <p class="playerNameText goalieName"></p>
             </div>
         </div>
     </div>
     <div class="col-md-3 player text-center">
         <div class="playerImg">
-            <img src="../img/anonym.png" class="playerPic">
+            <img src="/jabronis/img/anonym.png" class="playerPic">
         </div>
         <div class="playerNr">
             <p class="playerNrText">?</p>
@@ -58,7 +58,7 @@
     </div>
     <div class="col-md-3 player text-center">
         <div class="playerImg">
-            <img src="../img/anonym.png" class="playerPic">
+            <img src="/jabronis/img/anonym.png" class="playerPic">
         </div>
         <div class="playerNr">
             <p class="playerNrText">?</p>
@@ -72,29 +72,18 @@
     <p class="goalieHeadline backar">Backar</p>
     <div class="col-md-3 player">
         <div class="playerImg">
-            <img src="../img/anonym.png" class="playerPic">
+            <img src="/jabronis/img/anonym.png" class="playerPic">
         </div>
         <div class="playerNr">
-            <p class="playerNrText">4</p>
+            <p class="playerNrText dNr"></p>
         </div>
         <div class="playerName">
-            <p class="playerNameText">Adam Kron</p>
+            <p class="playerNameText dName"></p>
         </div>
     </div>
     <div class="col-md-3 player">
         <div class="playerImg">
-            <img src="../img/anonym.png" class="playerPic">
-        </div>
-        <div class="playerNr">
-            <p class="playerNrText">?</p>
-        </div>
-        <div class="playerName">
-            <p class="playerNameText">Sökes</p>
-        </div>
-    </div>
-    <div class="col-md-3 player">
-        <div class="playerImg">
-            <img src="../img/anonym.png" class="playerPic">
+            <img src="/jabronis/img/anonym.png" class="playerPic">
         </div>
         <div class="playerNr">
             <p class="playerNrText">?</p>
@@ -105,7 +94,18 @@
     </div>
     <div class="col-md-3 player">
         <div class="playerImg">
-            <img src="../img/anonym.png" class="playerPic">
+            <img src="/jabronis/img/anonym.png" class="playerPic">
+        </div>
+        <div class="playerNr">
+            <p class="playerNrText">?</p>
+        </div>
+        <div class="playerName">
+            <p class="playerNameText">Sökes</p>
+        </div>
+    </div>
+    <div class="col-md-3 player">
+        <div class="playerImg">
+            <img src="/jabronis/img/anonym.png" class="playerPic">
         </div>
         <div class="playerNr">
             <p class="playerNrText">?</p>
@@ -119,84 +119,84 @@
     <p class="goalieHeadline backar">Anfallare</p>
     <div class="col-md-3 player">
         <div class="playerImg">
-            <img src="../img/anonym.png" class="playerPic">
+            <img src="/jabronis/img/anonym.png" class="playerPic">
         </div>
         <div class="playerNr">
-            <p class="playerNrText">7</p>
+            <p class="playerNrText offenseNr"></p>
         </div>
         <div class="playerName">
-            <p class="playerNameText">Christian Bäck</p>
+            <p class="playerNameText offenseName"></p>
         </div>
     </div>
     <div class="col-md-3 player">
         <div class="playerImg">
-            <img src="../img/anonym.png" class="playerPic">
+            <img src="/jabronis/img/anonym.png" class="playerPic">
         </div>
         <div class="playerNr">
-            <p class="playerNrText">19</p>
+            <p class="playerNrText offenseNr">19</p>
         </div>
         <div class="playerName">
-            <p class="playerNameText">Henrik Clausén</p>
+            <p class="playerNameText offenseName">Henrik Clausén</p>
         </div>
     </div>
     <div class="col-md-3 player">
         <div class="playerImg">
-            <img src="../img/mickebig.png" class="playerPic">
+            <img src="/jabronis/img/mickebig.png" class="playerPic">
         </div>
         <div class="playerNr">
-            <p class="playerNrText">20</p>
+            <p class="playerNrText offenseNr">20</p>
         </div>
         <div class="playerName">
-            <p class="playerNameText">Mikael Bång</p>
+            <p class="playerNameText offenseName">Mikael Bång</p>
         </div>
     </div>
     <div class="col-md-3 player">
         <div class="playerImg">
-            <img src="../img/anonym.png" class="playerPic">
+            <img src="/jabronis/img/anonym.png" class="playerPic">
         </div>
         <div class="playerNr">
-            <p class="playerNrText">22</p>
+            <p class="playerNrText offenseNr">22</p>
         </div>
         <div class="playerName">
-            <p class="playerNameText">Erik Thelvén</p>
+            <p class="playerNameText offenseName">Erik Thelvén</p>
         </div>
     </div>
     <div class="col-md-3 player">
         <div class="playerImg">
-            <img src="../img/anonym.png" class="playerPic">
+            <img src="/jabronis/img/anonym.png" class="playerPic">
         </div>
         <div class="playerNr">
-            <p class="playerNrText">28</p>
+            <p class="playerNrText offenseNr">28</p>
         </div>
         <div class="playerName">
-            <p class="playerNameText">Patrik Petersson</p>
+            <p class="playerNameText offenseName">Patrik Petersson</p>
         </div>
     </div>
     <div class="col-md-3 player">
         <div class="playerImg">
-            <img src="../img/anonym.png" class="playerPic">
+            <img src="/jabronis/img/anonym.png" class="playerPic">
         </div>
         <div class="playerNr">
-            <p class="playerNrText">67</p>
+            <p class="playerNrText offenseNr">67</p>
         </div>
         <div class="playerName">
-            <p class="playerNameText">Thomas Killick</p>
+            <p class="playerNameText offenseName">Thomas Killick</p>
         </div>
     </div>
     <div class="col-md-3 player">
         <div class="playerImg">
-            <img src="../img/richardbig.png" class="playerPic">
+            <img src="/jabronis/img/richardbig.png" class="playerPic">
         </div>
         <div class="playerNr">
-            <p class="playerNrText">91</p>
+            <p class="playerNrText offenseNr">91</p>
         </div>
         <div class="playerName">
-            <p class="playerNameText">Richard Bång</p>
+            <p class="playerNameText offenseName">Richard Bång</p>
         </div>
     </div>
     <div class="col-md-3 player">
         <div class="playerImg">
-            <img src="../img/anonym.png" class="playerPic">
+            <img src="/jabronis/img/anonym.png" class="playerPic">
         </div>
         <div class="playerNr">
             <p class="playerNrText">?</p>
