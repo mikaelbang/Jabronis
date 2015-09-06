@@ -71,8 +71,7 @@ $(document).ready(function(){
         $(".news3").hide();
         $(".news4").show();
     });
-
-})
+});
 
 $(document).ready(function(){
     $('li img').on('click',function(){
@@ -82,7 +81,7 @@ $(document).ready(function(){
         //Start of new code
         var index = $(this).parent('li').index();
         var html = '';
-        html += '<p class="galleriHeadline">Här kan man beskriva bilden</p>'
+        html += '<p class="galleriHeadline">Här kan man beskriva bilden</p>';
         html += img;
         html += '<div style="height:25px;clear:both;display:block;">';
         html += '<a class="controls next" href="'+ (index+2) + '"><p class="glyphicon glyphicon-chevron-right"></p></a>';

@@ -7,12 +7,17 @@
 }
 
 body{
+
     font-family: myFirstFont;
     letter-spacing: 1px;
     background-color: orange;
 
-    background: url("../img/hockeybckr.png") repeat;
+    background: url("/jabronis/img/hockeybckr.png") repeat;
     background-attachment: fixed;
+}
+
+b, strong, i {
+    font-family: "Lucida Sans";
 }
 
 .noStyle{
@@ -161,7 +166,7 @@ body{
 
 .navbar-default .navbar-brand {
     color: #fff;
-    padding: 9 15;
+    padding: 9px 15px;
     margin-top: -1px;
 }
 
@@ -216,7 +221,7 @@ body{
 @media (min-width: 768px){
     .navbar-nav > li > a {
         padding-top: 9px;
-        padding-bottom: 9;
+        padding-bottom: 9px;
     }
 }
 

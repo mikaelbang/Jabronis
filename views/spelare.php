@@ -39,10 +39,10 @@
         </div>
         <div class="infoBorder">
             <div class="playerNr">
-                <p class="playerNrText">35</p>
+                <p class="playerNrText goalieNr"></p>
             </div>
             <div class="playerName">
-                <p class="playerNameText">Johan Bäck</p>
+                <p class="playerNameText goalieName"></p>
             </div>
         </div>
     </div>
@@ -76,10 +76,10 @@
             <img src="/jabronis/img/anonym.png" class="playerPic">
         </div>
         <div class="playerNr">
-            <p class="playerNrText">4</p>
+            <p class="playerNrText dNr"></p>
         </div>
         <div class="playerName">
-            <p class="playerNameText">Adam Kron</p>
+            <p class="playerNameText dName"></p>
         </div>
     </div>
     <div class="col-md-3 player">
@@ -123,10 +123,10 @@
             <img src="/jabronis/img/anonym.png" class="playerPic">
         </div>
         <div class="playerNr">
-            <p class="playerNrText">7</p>
+            <p class="playerNrText offenseNr"></p>
         </div>
         <div class="playerName">
-            <p class="playerNameText">Christian Bäck</p>
+            <p class="playerNameText offenseName"></p>
         </div>
     </div>
     <div class="col-md-3 player">
@@ -134,10 +134,10 @@
             <img src="/jabronis/img/henkebig.png" class="playerPic">
         </div>
         <div class="playerNr">
-            <p class="playerNrText">19</p>
+            <p class="playerNrText offenseNr">19</p>
         </div>
         <div class="playerName">
-            <p class="playerNameText">Henrik Clausén</p>
+            <p class="playerNameText offenseName">Henrik Clausén</p>
         </div>
     </div>
     <div class="col-md-3 player">
@@ -145,10 +145,10 @@
             <img src="/jabronis/img/mickebig.png" class="playerPic">
         </div>
         <div class="playerNr">
-            <p class="playerNrText">20</p>
+            <p class="playerNrText offenseNr">20</p>
         </div>
         <div class="playerName">
-            <p class="playerNameText">Mikael Bång</p>
+            <p class="playerNameText offenseName">Mikael Bång</p>
         </div>
     </div>
     <div class="col-md-3 player">
@@ -156,10 +156,10 @@
             <img src="/jabronis/img/anonym.png" class="playerPic">
         </div>
         <div class="playerNr">
-            <p class="playerNrText">22</p>
+            <p class="playerNrText offenseNr">22</p>
         </div>
         <div class="playerName">
-            <p class="playerNameText">Erik Thelvén</p>
+            <p class="playerNameText offenseName">Erik Thelvén</p>
         </div>
     </div>
     <div class="col-md-3 player">
@@ -167,10 +167,10 @@
             <img src="/jabronis/img/anonym.png" class="playerPic">
         </div>
         <div class="playerNr">
-            <p class="playerNrText">28</p>
+            <p class="playerNrText offenseNr">28</p>
         </div>
         <div class="playerName">
-            <p class="playerNameText">Patrik Petersson</p>
+            <p class="playerNameText offenseName">Patrik Petersson</p>
         </div>
     </div>
     <div class="col-md-3 player">
@@ -178,10 +178,10 @@
             <img src="/jabronis/img/anonym.png" class="playerPic">
         </div>
         <div class="playerNr">
-            <p class="playerNrText">67</p>
+            <p class="playerNrText offenseNr">67</p>
         </div>
         <div class="playerName">
-            <p class="playerNameText">Thomas Killick</p>
+            <p class="playerNameText offenseName">Thomas Killick</p>
         </div>
     </div>
     <div class="col-md-3 player">
@@ -189,10 +189,10 @@
             <img src="/jabronis/img/richardbig.png" class="playerPic">
         </div>
         <div class="playerNr">
-            <p class="playerNrText">91</p>
+            <p class="playerNrText offenseNr">91</p>
         </div>
         <div class="playerName">
-            <p class="playerNameText">Richard Bång</p>
+            <p class="playerNameText offenseName">Richard Bång</p>
         </div>
     </div>
     <div class="col-md-3 player">
