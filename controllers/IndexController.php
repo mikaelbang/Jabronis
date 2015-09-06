@@ -11,6 +11,7 @@ include_once "Database.php";
 Class Testcontroller{
     public function indexAction(){
         require_once "views/index.php";
+
      }
 
     public function playersAction(){
@@ -53,13 +54,14 @@ Class Testcontroller{
         $db = new Database();
         $query = "SELECT * FROM articles WHERE article_id = :article_id";
         $params = [':article_id' => $_POST["hidden_article_id"]];
-        $result = $db->getRows($query, $params);
+        $article = $db->getRows($query, $params);
 
+        //die(var_dump($article));
 
-        echo(json_encode($result));
-
-        //require_once "views/nyheter.php";
+        require_once "views/nyheter.php";
     }
+
+
 
 
 }

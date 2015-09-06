@@ -1,13 +1,14 @@
 <?php include 'header.php'?>
 
-<div id="singlePlayerContent">
-    <div id="singlePlayer">
+<div class="row col-md-9 col-md-offset-2 singlePlayerContent">
+    <div class="col-md-8 col-md-offset-3 singlePlayer">
         <div class="row">
-            <div class="col-md-5 singlePlayerPic">
-                <img src="/jabronis/img/anonym.png" class="singlePlayerImg">
-            </div>
             <button class="closeButton"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
             </button>
+            <div class="col-md-5 singlePlayerPic">
+                <img src="/jabronis/img/henkebig.png" class="singlePlayerImg">
+            </div>
+
             <div class="col-md-6 singlePlayerName">
                 <p class="singleName">Henrik Clausén</p>
                 <div class="singlePlayerInfo">
@@ -130,7 +131,7 @@
     </div>
     <div class="col-md-3 player">
         <div class="playerImg">
-            <img src="/jabronis/img/anonym.png" class="playerPic">
+            <img src="/jabronis/img/henkebig.png" class="playerPic">
         </div>
         <div class="playerNr">
             <p class="playerNrText offenseNr">19</p>

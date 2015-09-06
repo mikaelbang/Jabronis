@@ -8,8 +8,17 @@
             <img src="" class="newsPic img4">
         </div>
         <div class="picHeadline">
-            <div class="newsFrameText">
+            <div class="newsFrameText news1">
                 <p class="newsPicText">Nyhetens Rubrik</p>
+            </div>
+            <div class="newsFrameText news2">
+                <p class="newsPicText">Nyhetens Rubrik 2</p>
+            </div>
+            <div class="newsFrameText news3">
+                <p class="newsPicText">Nyhetens Rubrik 3</p>
+            </div>
+            <div class="newsFrameText news4">
+                <p class="newsPicText">Nyhetens Rubrik 4</p>
             </div>
         </div>
         <div class="miniPics">
@@ -33,33 +42,36 @@
         </div>
         <div class="row col-md-12 sideNewsArchive">
             <div class="sideNewsContent">
-                <p class="sideNewsText archiveText">Läs fler nyheter från arkivet >></p>
+                <p class="sideNewsText archiveText">Läs fler nyheter från arkivet &raquo;</p>
             </div>
         </div>
     </div>
-    <div class="col-sm-11 galleri">
-       <a href="#"><img src="img/galleri.png" class="galleriPic"></a>
+    <div class="col-sm-12 galleri">
+       <a href="/Jabronis/test/galleri"><img src="/jabronis/img/galleri.png" class="galleriPic"></a>
     </div>
-    <div class="row col-md-12">
+    <div class="row middleContent col-md-12">
         <div class="col-md-4 middleBorder">
-            <img src="img/thirdJersey.png" class="middlePic">
+            <img src="/jabronis/img/thirdJersey.png" class="middlePic">
         </div>
         <div class="col-md-4 middleBorder">
-            <img src="img/colorado.png" class="middlePic">
+            <img src="/jabronis/img/awayjab.png" class="middlePic">
         </div>
         <div class="col-md-4 middleBorder">
-            <img src="img/colorado.png" class="middlePic">
+            <img src="/jabronis/img/colorado.png" class="middlePic">
         </div>
     </div>
     <div class="row col-md-10 col-md-offset-1 addBorder">
         <div class="col-md-3">
-            <img src="img/cheesit.png" class="sponsorPic">
-        </div>
-        <div class="col-md-2">
-            <img src="img/rmbFirstLogo.png" class="sponsorPic">
+            <a href="http://www.chessit.se" class="noStyle"><img src="/jabronis/img/cheesit.png" class="sponsorPic"></a>
         </div>
         <div class="col-md-3">
-            <img src="img/panda.png" class="sponsorPic">
+            <a href="http://www.pandawebb.se" class="noStyle"><img src="/jabronis/img/panda.png" class="sponsorPic"></a>
+        </div>
+        <div class="col-md-3">
+            <a href="http://www.lookingglassdenim.com" class="noStyle"><img src="/jabronis/img/lgdnm.png" class="sponsorPic"></a>
+        </div>
+        <div class="col-md-2">
+            <a href="http://freewaterpictures.se" class="noStyle"><img src="/jabronis/img/freewater.png" class="sponsorPic"></a>
         </div>
     </div>
 
