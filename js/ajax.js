@@ -9,40 +9,15 @@ $(document).ready(function(){
     setTimeout(players(),1);
 
     $('body').on('click', '.sideNews', function(){
-        console.log($(this).find("#hidden_article_id").val());
+        //console.log($(this).find(".article_form"));
+        var form = $(this).find(".article_form");
         var article_id = $(this).find("#hidden_article_id").val();
-        goToArticle(article_id);
+        form.submit();
     });
 
 });
 
-function goToArticle(article_id){
-
-    $.ajax({
-        url: "/jabronis/test/article" ,
-        type: "POST",
-        data: {hidden_article_id: article_id},
-        dataType: "json"
-    })
-        .error(
-        function(){
-            console.log("Error: fisk");
-        })
-        .success(
-        function(data){
-            console.log(data);
-            /*for(var key in data){
-                if(data.hasOwnProperty(key)){
-                    //console.log(key + " -> " + data[key].headline);
-                    //addArticles(data[key]);
-                }
-            }*/
-        }
-    );
-}
-
 function news(){
-
     $.ajax({
         url: "/jabronis/test/articles" ,
         type: "GET",
@@ -54,13 +29,8 @@ function news(){
         })
         .success(
         function(data){
-            //for(var i = 0; i < data.length; i++){
-                //console.log(data[i]);
-                //show_search_result(data[i]);
-            //}
             for(var key in data){
                 if(data.hasOwnProperty(key)){
-                    //console.log(key + " -> " + data[key].headline);
                     addArticles(data[key]);
                 }
             }
@@ -69,7 +39,6 @@ function news(){
 }
 
 function galleri(){
-
     $.ajax({
         url: "/jabronis/test/galleri" ,
         type: "GET",
@@ -78,7 +47,6 @@ function galleri(){
     })
         .error(
         function(){
-            //console.log("Error: fuck");
         })
         .success(
         function(data){
@@ -86,7 +54,6 @@ function galleri(){
                 if(data.hasOwnProperty(key)){
                     var x = Number(key);
                     var res = x + 1;
-                    //console.log(key + " -> " + data[key].src + " " + res);
                     $(".img" + res).attr("src", data[key].src);
                     $(".pic" + res).attr("src", data[key].src);
                 }
@@ -108,10 +75,8 @@ function players(){
         })
         .success(
         function(data){
-            //console.log(data);
             for(var key in data){
                 if(data.hasOwnProperty(key)){
-                    //console.log(key + " -> " + data[key].first_name);
                     sortPlayers(data[key]);
                 }
             }
@@ -136,7 +101,6 @@ function sortPlayers(players){
 
 }
 
-
 function addArticles(data){
 
     var d = data.created;
@@ -146,8 +110,10 @@ function addArticles(data){
     var t = '';
     t += '<div class="row col-md-12 sideNews">';
     t +=    '<div class="sideNewsContent">';
-    t +=        '<input type="hidden" id="hidden_article_id" name="hidden_article_id" value="'+ data.article_id +'" />';
-    t +=        '<p class="sideNewsText"><span class="newsDate">' + date + '</span>'+ data.headline +'</p>';
+    t +=        '<form class="article_form" method="post" action="/jabronis/test/article">';
+    t +=            '<input type="hidden" id="hidden_article_id" name="hidden_article_id" value="'+ data.article_id +'" />';
+    t +=            '<p class="sideNewsText"><span class="newsDate">' + date + '</span>'+ data.headline +'</p>';
+    t +=        '</form>';
     t +=    '</div>';
     t += '</div>';
 
