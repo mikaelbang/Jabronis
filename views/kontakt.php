@@ -37,7 +37,7 @@
         </div>
     </div>
     <div class="col-md-7">
-        <h1 class="formHeadline">Vill du spela i Jabronis? Hör av er här:</h1>
+        <h1 class="formHeadline">Vill du spela i Jabronis? Hör av dig här:</h1>
         <div class="contactForm">
             <input class="contactFormName" type="text" placeholder="Ditt Namn..." required=""/>
             <input class="contactFormName" type="text" placeholder="Din Mail..." required=""/>

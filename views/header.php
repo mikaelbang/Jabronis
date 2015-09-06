@@ -12,13 +12,14 @@
     <title>Jabronis HC</title>
     <meta name="description" content="Da shit">
     <meta name="author" content="Jabronis">
-    <link href="/Jabronis/css/bootstrap.css" rel="stylesheet">
-    <link href='/Jabronis/css/maincss.css' rel='stylesheet' type='text/css'>
+    <link href="/jabronis/css/bootstrap.css" rel="stylesheet">
+    <link href='/jabronis/css/maincss.css' rel='stylesheet' type='text/css'>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="/jabronis/js/jquery.min.js" type="text/javascript"></script>
     <script src="/jabronis/js/bootstrap.js"></script>
     <script src="/jabronis/js/jabronis.js"></script>
     <script src="/jabronis/js/ajax.js"></script>
+
 </head>
 <body>
     <div id="page-cover">
@@ -29,7 +30,7 @@
                 <a href="/jabronis" class="noStyle"><img class="headLogo" src="/jabronis/img/vektorTRY2.png"></a>
             </div>
             <div class="col-md-9">
-                <a class="noStyle" href="index.php"><p class="headLogoText">JABRONIS HOCKEY CLUB</p></a>
+                <a class="noStyle" href="/jabronis/test/index"><p class="headLogoText">JABRONIS HOCKEY CLUB</p></a>
             </div>
         </div>
         <div class="row col-lg-10 col-lg-offset-1">

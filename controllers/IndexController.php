@@ -11,6 +11,7 @@ include_once "Database.php";
 Class Testcontroller{
     public function indexAction(){
         require_once "views/index.php";
+
      }
 
     public function playersAction(){
@@ -59,6 +60,8 @@ Class Testcontroller{
 
         require_once "views/nyheter.php";
     }
+
+
 
 
 }
