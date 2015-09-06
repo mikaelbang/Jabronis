@@ -8,8 +8,17 @@
             <img src="/jabronis/img/blackandwhite600x336.png" class="newsPic img4">
         </div>
         <div class="picHeadline">
-            <div class="newsFrameText">
+            <div class="newsFrameText news1">
                 <p class="newsPicText">Nyhetens Rubrik</p>
+            </div>
+            <div class="newsFrameText news2">
+                <p class="newsPicText">Nyhetens Rubrik 2</p>
+            </div>
+            <div class="newsFrameText news3">
+                <p class="newsPicText">Nyhetens Rubrik 3</p>
+            </div>
+            <div class="newsFrameText news4">
+                <p class="newsPicText">Nyhetens Rubrik 4</p>
             </div>
         </div>
         <div class="miniPics">

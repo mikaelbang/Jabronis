@@ -31,7 +31,7 @@
             <td class="tableItemText">2015-09-14</td>
             <td class="tableItemText">21:30 - 23:00</td>
             <td class="tableItemText">Hägernäs Ishall</td>
-            <td class="tableItemText"><a href="#" class="noStyle">Läs mer &raquo;xf</a></td>
+            <td class="tableItemText"><a href="#" class="noStyle">Läs mer &raquo;</a></td>
         </tr>
         <tr>
             <td class="tableItemText">2015-09-21</td>

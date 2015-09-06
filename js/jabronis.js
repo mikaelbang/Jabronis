@@ -30,6 +30,10 @@ $(document).ready(function(){
         $(".img2").hide();
         $(".img3").hide();
         $(".img4").hide();
+        $(".news1").show();
+        $(".news2").hide();
+        $(".news3").hide();
+        $(".news4").hide();
     });
 
     $(".pic2").hover(function(){
@@ -38,6 +42,10 @@ $(document).ready(function(){
         $(".img2").show();
         $(".img3").hide();
         $(".img4").hide();
+        $(".news1").hide();
+        $(".news2").show();
+        $(".news3").hide();
+        $(".news4").hide();
     });
 
     $(".pic3").hover(function(){
@@ -46,6 +54,10 @@ $(document).ready(function(){
         $(".img2").hide();
         $(".img3").show();
         $(".img4").hide();
+        $(".news1").hide();
+        $(".news2").hide();
+        $(".news3").show();
+        $(".news4").hide();
     });
 
     $(".pic4").hover(function(){
@@ -54,6 +66,10 @@ $(document).ready(function(){
         $(".img2").hide();
         $(".img3").hide();
         $(".img4").show();
+        $(".news1").hide();
+        $(".news2").hide();
+        $(".news3").hide();
+        $(".news4").show();
     });
 
 })

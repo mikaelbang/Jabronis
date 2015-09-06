@@ -304,6 +304,18 @@ body{
 .newsFrame{
 }
 
+.news2{
+    display: none;
+}
+
+.news3{
+    display: none;
+}
+
+.news4{
+    display: none;
+}
+
 .newsPic{
     max-width: 600px;
     max-height: 336px;
@@ -327,7 +339,7 @@ body{
 }
 
 .newsFrameText{
-    background-color: rgba(0,0,0,0.8);
+    background: rgba(0,0,0,0.8);
     height: 60px;
     width: 600px;
     margin: 0 auto;
@@ -503,6 +515,7 @@ body{
     cursor: pointer;
     opacity: 0.8;
 }
+
 
 .archiveHeadline{
     text-align: left;
@@ -732,5 +745,23 @@ a:focus{
     display: inline-block;
 }
 
+@media (max-width: 677px){
+    .newsFrame {
+        width: 100%;
+    }
+    .newsPic{
+        width: 100%;
+    }
+    .picHeadline{
+        width: 100%;
+    }
+    .newsFrameText{
+        width: 100%;
+    }
+    .miniPics{
+        display: none;
+    }
+
+}
 
 
