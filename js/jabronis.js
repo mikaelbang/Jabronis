@@ -6,20 +6,20 @@
 $(document).ready(function(){
     $(".player").click(function(){
         event.preventDefault();
-        $("#singlePlayerContent").slideDown();
+        $(".singlePlayerContent").slideDown();
         $("#page-cover").css("display","block")
     });
 
     $("#page-cover").click(function(){
         event.preventDefault();
-        $("#singlePlayerContent").hide();
+        $(".singlePlayerContent").hide();
         $("#page-cover").hide();
 
     });
 
     $(".closeButton").click(function(){
         event.preventDefault();
-        $("#singlePlayerContent").hide();
+        $(".singlePlayerContent").hide();
         $("#page-cover").hide();
 
     });

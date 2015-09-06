@@ -1,8 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Ruda:400,700,900);
 
 
+@font-face {
+    font-family: myFirstFont;
+    src: url(../24003_LucidaGrande.ttf);
+}
+
 body{
-    font-family: "lucida grande",sans-serif;
+    font-family: myFirstFont;
     letter-spacing: 1px;
     background-color: orange;
 
@@ -38,24 +43,25 @@ body{
 
 .closeButton{
     padding: 5px;
-    margin-right: 19px;
+    margin-right: 5px;
     margin-top: 5px;
     color: #e96000;
+    float: right;
 }
 
 .closeButton:hover{
     opacity: 0.8;
 }
 
-#singlePlayerContent{
-    width: 76.6%;
+.singlePlayerContent{
+    width: 100%;
     position: fixed;
     z-index: 1000;
     display: none;
 
 }
 
-#singlePlayer{
+.singlePlayer{
     width: 600px;
     background-color: white;
     text-align: center;
@@ -300,6 +306,7 @@ body{
 .frameContent{
     margin-left: 0;
 }
+
 
 .newsFrame{
 }

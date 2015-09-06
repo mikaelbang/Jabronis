@@ -1,6 +1,6 @@
 <?php include 'header.php'?>
 
-<div class="table-responsive col-lg-11">
+<div class="table-responsive  col-lg-11">
     <h1 class="text-left">Spelschema</h1>
     <table class="table table-striped">
         <tr>
