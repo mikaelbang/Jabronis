@@ -36,7 +36,7 @@ Class Testcontroller{
 
     public function galleriAction(){
         $db = new Database();
-        $query = "SELECT images.src FROM images JOIN articles_images AS AI ON (AI.image_id = images.image_id) JOIN articles AS A ON (A.article_id = AI.article_id) LIMIT 4";
+        $query = "SELECT images.src, A.content, A.headline FROM images JOIN articles_images AS AI ON (AI.image_id = images.image_id) JOIN articles AS A ON (A.article_id = AI.article_id) LIMIT 4";
         $result = $db->getRows($query);
 
         echo(json_encode($result));
@@ -44,7 +44,7 @@ Class Testcontroller{
 
     public function getPlayersAction(){
         $db = new Database();
-        $query = "SELECT * FROM players";
+        $query = "SELECT * FROM players AS P LEFT JOIN players_images AS PI ON(P.player_id = PI.player_id) LEFT JOIN images AS I ON(PI.image_id = I.image_id)";
         $result = $db->getRows($query);
 
         echo(json_encode($result));
@@ -52,11 +52,9 @@ Class Testcontroller{
 
     public function articleAction(){
         $db = new Database();
-        $query = "SELECT * FROM articles WHERE article_id = :article_id";
+        $query = "SELECT * FROM images JOIN articles_images AS AI ON (AI.image_id = images.image_id) JOIN articles AS A ON (A.article_id = AI.article_id) WHERE A.article_id = :article_id";
         $params = [':article_id' => $_POST["hidden_article_id"]];
         $article = $db->getRows($query, $params);
-
-        //die(var_dump($article));
 
         require_once "views/nyheter.php";
     }

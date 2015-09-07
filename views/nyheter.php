@@ -2,7 +2,7 @@
 
     <div class="row col-md-8 frameContent">
         <div class="newsFrame">
-            <img src="/jabronis/img/huddle600x336.png" class="newsPic">
+            <img src="<?php echo($article[0]["src"])?>" class="newsPic">
         </div>
         <div class="archiveHeadline">
             <h1 class="archiveHeadlineText"><?php echo($article[0]["headline"])?></h1>

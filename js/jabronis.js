@@ -4,26 +4,6 @@
 
 
 $(document).ready(function(){
-    $(".player").click(function(){
-        event.preventDefault();
-        $(".singlePlayerContent").slideDown();
-        $("#page-cover").css("display","block")
-    });
-
-    $("#page-cover").click(function(){
-        event.preventDefault();
-        $(".singlePlayerContent").hide();
-        $("#page-cover").hide();
-
-    });
-
-    $(".closeButton").click(function(){
-        event.preventDefault();
-        $(".singlePlayerContent").hide();
-        $("#page-cover").hide();
-
-    });
-
     $(".pic1").hover(function(){
         event.preventDefault();
         $(".img1").show();
