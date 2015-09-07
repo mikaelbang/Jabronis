@@ -15,6 +15,37 @@ $(document).ready(function(){
         form.submit();
     });
 
+    $('body').on('click', '.player', function(){
+        event.preventDefault();
+        $(".singlePlayerContent").slideDown();
+        $("#page-cover").css("display","block")
+        $('.singleName').text($(this).find('.playerNameText').text());
+        $('.singlePlayerImg').attr('src', $(this).find('.playerPic').attr('src'));
+        $('.popPosition').text($(this).find('.playerPos').val());
+        $('.popNumber').text($(this).find('.playerNrText').text());
+        $('.popContent').text($(this).find('.playerContent').val());
+        $('.popAge').text($(this).find('.playerAge').val());
+
+
+        console.log($(this).find('.playerNameText'));
+    });
+
+    $('body').on('click', '#page-cover', function(){
+        event.preventDefault();
+        $(".singlePlayerContent").hide();
+        $("#page-cover").hide();
+
+    });
+
+    $('body').on('click', '.closeButton', function(){
+        event.preventDefault();
+        $(".singlePlayerContent").hide();
+        $("#page-cover").hide();
+    });
+
+    $('body').on('click', '.player', function(){
+
+    });
 });
 
 function news(){
@@ -43,17 +74,18 @@ function galleri(){
         url: "/jabronis/test/galleri" ,
         type: "GET",
         dataType: "json"
-
     })
         .error(
         function(){
         })
         .success(
         function(data){
+            //console.log(data);
             for(var key in data){
                 if(data.hasOwnProperty(key)){
                     var x = Number(key);
                     var res = x + 1;
+                    $(".news" + res).text(data[key].headline);
                     $(".img" + res).attr("src", data[key].src);
                     $(".pic" + res).attr("src", data[key].src);
                 }
@@ -67,7 +99,6 @@ function players(){
         url: "/jabronis/test/getPlayers" ,
         type: "GET",
         dataType: "json"
-
     })
         .error(
         function(){
@@ -77,6 +108,7 @@ function players(){
         function(data){
             for(var key in data){
                 if(data.hasOwnProperty(key)){
+                    //console.log(data[key]);
                     sortPlayers(data[key]);
                 }
             }
@@ -86,19 +118,40 @@ function players(){
 
 function sortPlayers(players){
     if(players.position == "G"){
-        console.log(players.first_name);
-        $('.goalieNr').text(players.number);
-        $('.goalieName').text(players.first_name + " " + players.last_name);
+        //console.log(players);
+        $('.goalieAdd').after(addPlayerHTML(players));
     }
     else if(players.position == "D"){
-        $('.dNr').text(players.number);
-        $('.dName').text(players.first_name + " " + players.last_name);
+        $('.defenseAdd').after(addPlayerHTML(players));
     }
     else if(players.position == "LW" || players.position == "RW" || players.position == "C"){
-        $('.offenseNr').text(players.number);
-        $('.offenseName').text(players.first_name + " " + players.last_name);
+        $('.offenseAdd').after(addPlayerHTML(players));
     }
+}
 
+function addPlayerHTML(player){
+    console.log(player.first_name + ' va');
+    var img_src = player.src;
+    if(player.src == null){
+        img_src = "/jabronis/img/anonym.png";
+    }
+    var g = '';
+    g += '<div class="col-md-3 player text-center">';
+    g +=    '<div class="playerImg">';
+    g +=        '<img src="' + img_src + '" class="playerPic">';
+    g +=    '</div>';
+    g +=    '<div class="playerNr">';
+    g +=        '<input type="hidden" class="playerAge" value="' + player.age + '">';
+    g +=        '<input type="hidden" class="playerPos" value="' + player.position + '">';
+    g +=        '<input type="hidden" class="playerContent" value="' + player.info + '">';
+    g +=        '<p class="playerNrText goalieNr">' + player.number + '</p>';
+    g +=    '</div>';
+    g +=    '<div class="playerName">';
+    g +=        '<p class="playerNameText goalieName">' + player.first_name + " " + player.last_name + '</p>';
+    g +=    '</div>';
+    g += '</div>';
+
+    return g;
 }
 
 function addArticles(data){
