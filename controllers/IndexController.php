@@ -68,6 +68,18 @@ Class Testcontroller{
     }
 
 
+    public function galleryAction(){
+
+
+        require_once "views/galleri.php";
+    }
+
+    public function adminAction(){
+
+        require_once "views/admin.php";
+
+    }
+
 
 
 }

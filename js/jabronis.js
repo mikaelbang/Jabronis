@@ -71,6 +71,29 @@ $(document).ready(function(){
         $(".news3").hide();
         $(".news4").show();
     });
+
+    $("#addImg").click(function(){
+        event.preventDefault();
+        $(".addPlayerContent").hide();
+        $(".addArticleContent").hide();
+        $(".addImageContent").show();
+    })
+
+    $("#addPlayer").click(function(){
+        event.preventDefault();
+        $(".addPlayerContent").show();
+        $(".addArticleContent").hide();
+        $(".addImageContent").hide();
+    })
+
+
+    $("#addArticle").click(function(){
+        event.preventDefault();
+        $(".addPlayerContent").hide();
+        $(".addArticleContent").show();
+        $(".addImageContent").hide();
+    })
+
 });
 
 $(document).ready(function(){
