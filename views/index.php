@@ -10,14 +10,8 @@
         <div class="picHeadline">
             <div class="newsFrameText">
                 <p class="newsPicText news1"></p>
-            </div>
-            <div class="newsFrameText">
                 <p class="newsPicText news2"></p>
-            </div>
-            <div class="newsFrameText">
                 <p class="newsPicText news3"></p>
-            </div>
-            <div class="newsFrameText">
                 <p class="newsPicText news4"></p>
             </div>
         </div>
