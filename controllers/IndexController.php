@@ -61,6 +61,12 @@ Class Testcontroller{
         require_once "views/nyheter.php";
     }
 
+    public function arkivAction(){
+
+
+        require_once "views/arkiv.php";
+    }
+
 
 
 
