@@ -10,8 +10,6 @@ body{
 
     font-family: myFirstFont;
     letter-spacing: 1px;
-    background-color: orange;
-
     background: url("/jabronis/img/hockeybckr.png") repeat;
     background-attachment: fixed;
 }
@@ -22,6 +20,7 @@ b, strong, i {
 
 .noStyle{
     text-decoration: none;
+    color: #000000;
 }
 
 .noStyle:hover{
@@ -422,6 +421,7 @@ b, strong, i {
     /*box-shadow: 0px 2px 1px rgba(0,0,0,0.3);*/
 }
 
+
 .archiveText:hover{
     cursor: pointer;
     color: rgba(0,0,0,0.6);
@@ -433,11 +433,6 @@ b, strong, i {
 }
 
 .sideNewsContent{
-    white-space: nowrap;
-    overflow:hidden !important;
-    text-overflow: ellipsis;
-    width: 99%;
-    display: inline-block;
     -webkit-user-select: none;
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+ */
@@ -453,9 +448,13 @@ b, strong, i {
 
 .sideNewsText{
     display: inline-block;
-    text-align: left;
     font-size: 14px;
     letter-spacing: 0;
+    white-space: nowrap;
+    overflow:hidden !important;
+    text-overflow: ellipsis;
+    width: 100%;
+    display: inline-block;
 }
 
 .miniImgs{
@@ -775,5 +774,74 @@ a:focus{
     }
 
 }
+
+.archiveText{
+    font-size: 12px;
+    float: right;
+}
+
+.allNewsHeadline{
+    text-align: left;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.allNews{
+    font-size: 12px;
+    padding-left: 10px;
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.addInput{
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid grey;
+}
+
+.addContent{
+    height: 200px;
+    padding: 10px;
+    margin-top: 30px;
+
+}
+
+.addArtPic{
+    width: 50%;
+    margin-top: 20px;
+    height: 30px;
+    background-color: white;
+    color: #136d2d;
+}
+
+.addImageContent{
+    display: none;
+}
+
+.uploadImg{
+    margin-top: 15px;
+}
+
+.addPlayerContent{
+    display: none;
+}
+
+.addPlayerInput{
+    width: 45%;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid grey;
+    margin-bottom: 15px;
+}
+
+.addInfo{
+    height: 200px;
+    padding: 10px;
+    width: 91%;
+}
+
 
 

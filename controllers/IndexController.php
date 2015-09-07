@@ -59,6 +59,24 @@ Class Testcontroller{
         require_once "views/nyheter.php";
     }
 
+    public function arkivAction(){
+
+
+        require_once "views/arkiv.php";
+    }
+
+
+    public function galleryAction(){
+
+
+        require_once "views/galleri.php";
+    }
+
+    public function adminAction(){
+
+        require_once "views/admin.php";
+
+    }
 
 
 
