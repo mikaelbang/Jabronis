@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94b0b810-d6ed-49c4-a638-d0c8b3ebfe87" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/24003_LucidaGrande.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/awayjab.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/awaysecond.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/freewater.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/henkebig.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/henkrill600x336.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jerka.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/johanback600x336.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/lgdnm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/patattack600x336.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/stommen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/404.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/galleri.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/IndexController.php" afterPath="$PROJECT_DIR$/controllers/IndexController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Router.php" afterPath="$PROJECT_DIR$/Router.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/footer.php" afterPath="$PROJECT_DIR$/views/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/header.php" afterPath="$PROJECT_DIR$/views/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.php" afterPath="$PROJECT_DIR$/views/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jabronis.js" afterPath="$PROJECT_DIR$/js/jabronis.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/kontakt.php" afterPath="$PROJECT_DIR$/views/kontakt.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/maincss.css" afterPath="$PROJECT_DIR$/css/maincss.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/nyheter.php" afterPath="$PROJECT_DIR$/views/nyheter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/spelare.php" afterPath="$PROJECT_DIR$/views/spelare.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/spelschema.php" afterPath="$PROJECT_DIR$/views/spelschema.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="94b0b810-d6ed-49c4-a638-d0c8b3ebfe87" name="Default" comment="" />
     <ignored path="Jabronis.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -99,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spelare.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="spelare.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/spelare.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="134" column="0" selection-start="4712" selection-end="4712" vertical-scroll-proportion="2.5675676" vertical-offset="585" max-vertical-offset="3285">
+            <state line="49" column="31" selection-start="2044" selection-end="2044" vertical-scroll-proportion="-6.25" vertical-offset="585" max-vertical-offset="3285">
               <folding />
             </state>
           </provider>
@@ -117,11 +91,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jabronis.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="jabronis.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/jabronis.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="2220">
-              <folding />
+            <state line="25" column="0" selection-start="555" selection-end="555" vertical-scroll-proportion="-0.1266892" vertical-offset="450" max-vertical-offset="2220">
+              <folding>
+                <marker date="1441572550000" expanded="false" signature="2156:2193" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -384,7 +360,9 @@
     <entry file="file://$PROJECT_DIR$/js/jabronis.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="0" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="2220">
-          <folding />
+          <folding>
+            <marker date="1441572550000" expanded="false" signature="2156:2193" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -433,7 +411,9 @@
     <entry file="file://$PROJECT_DIR$/js/jabronis.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="71" column="109" selection-start="1845" selection-end="1845" vertical-scroll-proportion="0.0" vertical-offset="1065" max-vertical-offset="1995">
-          <folding />
+          <folding>
+            <marker date="1441572550000" expanded="false" signature="2156:2193" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -475,7 +455,9 @@
     <entry file="file://$PROJECT_DIR$/js/jabronis.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="26" selection-start="856" selection-end="856" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="990">
-          <folding />
+          <folding>
+            <marker date="1441572550000" expanded="false" signature="2156:2193" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -561,13 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/jabronis.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2235">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/kontakt.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="10" selection-start="2095" selection-end="2095" vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="885">
@@ -624,8 +599,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/spelare.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="0" selection-start="4712" selection-end="4712" vertical-scroll-proportion="2.5675676" vertical-offset="585" max-vertical-offset="3285">
+        <state line="49" column="31" selection-start="2044" selection-end="2044" vertical-scroll-proportion="-6.25" vertical-offset="585" max-vertical-offset="3285">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jabronis.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="555" selection-end="555" vertical-scroll-proportion="-0.1266892" vertical-offset="450" max-vertical-offset="2220">
+          <folding>
+            <marker date="1441572550000" expanded="false" signature="2156:2193" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
