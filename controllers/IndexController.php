@@ -78,6 +78,14 @@ Class Testcontroller{
 
     }
 
+    public function allArticlesAction(){
+        $db = new Database();
+        $query = "SELECT * FROM articles ORDER BY created DESC";
+        $result = $db->getRows($query);
+
+        echo(json_encode($result));
+    }
+
 
 
 }
