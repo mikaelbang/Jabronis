@@ -7,6 +7,7 @@ $(document).ready(function(){
     setTimeout(news(),1);
     setTimeout(galleri(),1);
     setTimeout(players(),1);
+    setTimeout(allArticles(),1);
 
     $('body').on('click', '.sideNews', function(){
         //console.log($(this).find(".article_form"));
@@ -18,16 +19,13 @@ $(document).ready(function(){
     $('body').on('click', '.player', function(){
         event.preventDefault();
         $(".singlePlayerContent").slideDown();
-        $("#page-cover").css("display","block")
+        $("#page-cover").css("display","block");
         $('.singleName').text($(this).find('.playerNameText').text());
         $('.singlePlayerImg').attr('src', $(this).find('.playerPic').attr('src'));
         $('.popPosition').text($(this).find('.playerPos').val());
         $('.popNumber').text($(this).find('.playerNrText').text());
         $('.popContent').text($(this).find('.playerContent').val());
         $('.popAge').text($(this).find('.playerAge').val());
-
-
-        console.log($(this).find('.playerNameText'));
     });
 
     $('body').on('click', '#page-cover', function(){
@@ -42,11 +40,28 @@ $(document).ready(function(){
         $(".singlePlayerContent").hide();
         $("#page-cover").hide();
     });
-
-    $('body').on('click', '.player', function(){
-
-    });
 });
+
+function allArticles(){
+    $.ajax({
+        url: "/jabronis/test/allArticles" ,
+        type: "GET",
+        dataType: "json"
+    })
+        .error(
+        function(){
+            console.log("Error: ");
+        })
+        .success(
+        function(data){
+            for(var key in data){
+                if(data.hasOwnProperty(key)){
+                    addAllArticles(data[key]);
+                }
+            }
+        }
+    );
+}
 
 function news(){
     $.ajax({
@@ -171,6 +186,16 @@ function addArticles(data){
     t += '</div>';
 
     $(".sideNewsArchive").before(t);
+}
+
+function addAllArticles(data){
+    console.log(data);
+    var t = '';
+    t += '<tr>';
+    t +=    '<td class="allNews"><span class="newsDate">' + data.created + '</span>' + data.headline + '</td>';
+    t += '</tr>';
+
+    $(".articleTable").after(t);
 }
 
 

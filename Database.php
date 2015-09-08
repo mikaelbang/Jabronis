@@ -11,7 +11,7 @@ Class Database{
     public $isConnected;
     protected $datab;
 
-    public function __construct($username = "root", $password = "root", $host = "localhost", $dbname = "jabronis", $options = []){
+    public function __construct($username = "root", $password = "", $host = "localhost", $dbname = "jabronis", $options = []){
         $this->isConnected = true;
 
         try{
