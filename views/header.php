@@ -14,6 +14,7 @@
     <meta name="author" content="Jabronis">
     <link href="/jabronis/css/bootstrap.css" rel="stylesheet">
     <link href='/jabronis/css/maincss.css' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="/jabronis/img/logoshadows%20kopia.ico"/>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="/jabronis/js/jquery.min.js" type="text/javascript"></script>
     <script src="/jabronis/js/bootstrap.js"></script>
