@@ -4,88 +4,15 @@
  */
 
 $(document).ready(function(){
-    setTimeout(news(),1);
-    setTimeout(galleri(),1);
+    //Calls all ajax functions efter 1 millisecond.
+    setTimeout(articles(),1);
     setTimeout(players(),1);
-    setTimeout(allArticles(),1);
     setTimeout(images(),1);
 
-    $('body').on('click', '.sideNews', function(){
-        //console.log($(this).find(".article_form"));
-        var form = $(this).find(".article_form");
-        var article_id = $(this).find("#hidden_article_id").val();
-        form.submit();
-    });
-
-    $('body').on('click', '.player', function(){
-        event.preventDefault();
-        $(".singlePlayerContent").slideDown();
-        $("#page-cover").css("display","block");
-        $('.singleName').text($(this).find('.playerNameText').text());
-        $('.singlePlayerImg').attr('src', $(this).find('.playerPic').attr('src'));
-        $('.popPosition').text($(this).find('.playerPos').val());
-        $('.popNumber').text($(this).find('.playerNrText').text());
-        $('.popContent').text($(this).find('.playerContent').val());
-        $('.popAge').text($(this).find('.playerAge').val());
-    });
-
-    $('body').on('click', '#page-cover', function(){
-        event.preventDefault();
-        $(".singlePlayerContent").hide();
-        $("#page-cover").hide();
-
-    });
-
-    $('body').on('click', '.closeButton', function(){
-        event.preventDefault();
-        $(".singlePlayerContent").hide();
-        $("#page-cover").hide();
-    });
 });
 
-function allArticles(){
-    $.ajax({
-        url: "/jabronis/test/allArticles" ,
-        type: "GET",
-        dataType: "json"
-    })
-        .error(
-        function(){
-            console.log("Error: ");
-        })
-        .success(
-        function(data){
-            for(var key in data){
-                if(data.hasOwnProperty(key)){
-                    addAllArticles(data[key]);
-                }
-            }
-        }
-    );
-}
-
-function news(){
-    $.ajax({
-        url: "/jabronis/test/articles" ,
-        type: "GET",
-        dataType: "json"
-    })
-        .error(
-        function(){
-            console.log("Error: ");
-        })
-        .success(
-        function(data){
-            for(var key in data){
-                if(data.hasOwnProperty(key)){
-                    addArticles(data[key]);
-                }
-            }
-        }
-    );
-}
-
-function galleri(){
+//Ajax call that gets all articles and places them in different html.
+function articles(){
     $.ajax({
         url: "/jabronis/test/galleri" ,
         type: "GET",
@@ -97,8 +24,16 @@ function galleri(){
         .success(
         function(data){
             //console.log(data);
+            //Counter for side-news-bar
+            var i = 0;
             for(var key in data){
                 if(data.hasOwnProperty(key)){
+                    //Checks if 10 articles has been added to the side-news-bar
+                    if(i < 10){
+                        addArticles(data[key]);
+                        i++;
+                    }
+                    addAllArticles(data[key]);
                     var x = Number(key);
                     var res = x + 1;
                     $(".news" + res).text(data[key].headline);
