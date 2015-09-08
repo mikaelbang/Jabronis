@@ -4,6 +4,40 @@
 
 
 $(document).ready(function(){
+
+    //Submits clicked article on the side-news-bar
+    $('body').on('click', '.sideNews', function(){
+        //console.log($(this).find(".article_form"));
+        var form = $(this).find(".article_form");
+        var article_id = $(this).find("#hidden_article_id").val();
+        form.submit();
+    });
+    //Adds the info of the clicked player on spelare.php
+    $('body').on('click', '.player', function(){
+        event.preventDefault();
+        $(".singlePlayerContent").slideDown();
+        $("#page-cover").css("display","block");
+        $('.singleName').text($(this).find('.playerNameText').text());
+        $('.singlePlayerImg').attr('src', $(this).find('.playerPic').attr('src'));
+        $('.popPosition').text($(this).find('.playerPos').val());
+        $('.popNumber').text($(this).find('.playerNrText').text());
+        $('.popContent').text($(this).find('.playerContent').val());
+        $('.popAge').text($(this).find('.playerAge').val());
+    });
+
+    $('body').on('click', '#page-cover', function(){
+        event.preventDefault();
+        $(".singlePlayerContent").hide();
+        $("#page-cover").hide();
+
+    });
+
+    $('body').on('click', '.closeButton', function(){
+        event.preventDefault();
+        $(".singlePlayerContent").hide();
+        $("#page-cover").hide();
+    });
+    
     $(".pic1").hover(function(){
         event.preventDefault();
         $(".img1").show();

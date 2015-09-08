@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: myFirstFont;
-    src: url(../24003_LucidaGrande.ttf);
+    src: url(/jabronis/24003_LucidaGrande.ttf);
 }
 
 body{
@@ -12,10 +12,6 @@ body{
     letter-spacing: 1px;
     background: url("/jabronis/img/hockeybckr.png") repeat;
     background-attachment: fixed;
-}
-
-b, strong, i {
-    font-family: "Lucida Sans";
 }
 
 .noStyle{
