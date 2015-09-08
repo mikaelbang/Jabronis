@@ -91,8 +91,17 @@ Class Testcontroller{
         }
     }
 
-    public function addPlayer(){
-
+    public function addPlayerAction(){
+        $db = new Database();
+        if(isset($_POST["add_player_button"]) && !empty($_POST["first_name"]) && !empty($_POST["last_name"]) && !empty($_POST["age"]) && !empty($_POST["number"]) && !empty($_POST["player_info"])){
+            $query = "INSERT INTO players(first_name, last_name, players.number, info, age, players.position ) VALUES (:firstName, :lastName, :nr, :info, :age, :playerPosition)";
+            $params = [':firstName' => htmlentities($_POST["first_name"]), ':lastName' => htmlentities($_POST["last_name"]), ':nr' => htmlentities($_POST["number"]), ':info' => htmlentities($_POST["player_info"]), ':age' => htmlentities($_POST["age"]), ':playerPosition' => htmlentities($_POST["position"])];
+            $post = $db->insertRow($query, $params);
+            $last = $db->lastId;
+            $query2 = "INSERT INTO players_images(player_id, image_id) VALUES (:player_id, :image_id)";
+            $params2 = [':player_id' => ($last), ':image_id' => ($_POST["player_upload"])];
+            $post2 = $db->insertRow($query2, $params2);
+        }
     }
 
     public function arkivAction(){
