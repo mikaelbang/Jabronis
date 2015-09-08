@@ -10,6 +10,7 @@ Class Database{
 
     public $isConnected;
     protected $datab;
+    public  $lastId;
 
     public function __construct($username = "root", $password = "root", $host = "localhost", $dbname = "jabronis", $options = []){
         $this->isConnected = true;
@@ -55,6 +56,7 @@ Class Database{
         try{
             $stm = $this->datab->prepare($query);
             $stm->execute($params);
+            $this->lastId = $this->datab->lastInsertId();
             return true;
         } catch(PDOException $e){
             throw new Exception( $e->getMessage());

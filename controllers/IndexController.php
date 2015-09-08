@@ -59,6 +59,42 @@ Class Testcontroller{
         require_once "views/nyheter.php";
     }
 
+    public function postAction(){
+        $db = new Database();
+        if(isset($_POST["post_article_button"]) && !empty($_POST["headline"]) && !empty($_POST["content"])){
+            $query = "INSERT INTO articles(headline, content) VALUES (:headline, :content)";
+            $params = [':headline' => htmlentities($_POST["headline"]), ':content' => htmlentities($_POST["content"])];
+            $post = $db->insertRow($query, $params);
+            $last = $db->lastId;
+            $query2 = "INSERT INTO articles_images(article_id, image_id) VALUES (:article_id, :image_id)";
+            $params2 = [':article_id' => ($last), ':image_id' => ($_POST["image_upload"])];
+            $post2 = $db->insertRow($query2, $params2);
+
+        }
+
+    }
+
+    public function getImagesAction(){
+        $db = new Database();
+        $query = "SELECT * FROM images";
+        $result = $db->getRows($query);
+
+        echo(json_encode($result));
+    }
+
+    public function uploadAction(){
+        $db = new Database();
+        if(isset($_POST["upload_button"]) && !empty($_POST["imgSrc"])){
+        $query = "INSERT INTO images(src) VALUES (:imgSrc)";
+        $params = [':imgSrc' => htmlentities($_POST["imgSrc"])];
+        $upload = $db->insertRow($query, $params);
+        }
+    }
+
+    public function addPlayer(){
+
+    }
+
     public function arkivAction(){
 
 

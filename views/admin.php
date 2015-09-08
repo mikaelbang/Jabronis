@@ -49,19 +49,19 @@
     <div class="row col-lg-10 col-lg-offset-1">
         <div class="row col-sm-12 allContent">
             <div class="addImageContent col-md-8 col-md-offset-2">
-                <input class="addInput" placeholder="Img src: /jabronis/img/example.png" required=""/>
-                <button class="uploadImg">Upload</button>
+                <form method="post" action="../test/upload">
+                    <input class="addInput" placeholder="Img src: /jabronis/img/example.png" name="imgSrc" required=""/>
+                    <button name="upload_button" class="uploadImg">Upload</button>
+                </form>
             </div>
             <div class="addArticleContent col-md-8 col-md-offset-2">
-                <input class="addInput" type="text" placeholder="Headline" required="" />
-                <textarea class="addInput addContent" required="" placeholder="Content"></textarea>
-                <select class="addArtPic">
-                    <option>jerka.png</option>
-                    <option>johanback600x336.png</option>
-                    <option>awayjab.png</option>
-                    <option>mickebig.png</option>
-                </select>
-                <button class="postArticle">Post</button>
+                <form method="post" action="../test/post">
+                    <input class="addInput" type="text" name="headline" placeholder="Headline" required="" />
+                    <textarea class="addInput addContent" name="content" required="" placeholder="Content"></textarea>
+                    <select name="image_upload" class="addArtPic">
+                    </select>
+                    <button type="submit" class="postArticle" name="post_article_button">Post</button>
+                </form>
             </div>
             <div class="addPlayerContent col-md-8 col-md-offset-2">
                 <input class="addPlayerInput" type="text" required="" placeholder="First Name"/>
@@ -69,7 +69,7 @@
                 <input class="addPlayerInput" type="text" required="" placeholder="Age"/>
                 <input class="addPlayerInput" type="text" required="" placeholder="Number"/>
                 <textarea class="addInput addInfo" required="" placeholder="Player Info"></textarea>
-                <select class="addArtPic">
+                <select class="addPlayerDd">
                     <option>Position</option>
                     <option>G</option>
                     <option>D</option>
@@ -77,7 +77,15 @@
                     <option>RW</option>
                     <option>LW</option>
                 </select>
-                <button>Add Player</button>
+                <select class="addPlayerDd">
+                    <option>Picture</option>
+                    <option>img</option>
+                    <option>img</option>
+                    <option>img</option>
+                    <option>img</option>
+                    <option>img</option>
+                </select>
+                <button class="playerButton">Add Player</button>
 
             </div>
 <?php include 'footer.php'?>

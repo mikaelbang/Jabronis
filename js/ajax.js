@@ -7,6 +7,8 @@ $(document).ready(function(){
     setTimeout(news(),1);
     setTimeout(galleri(),1);
     setTimeout(players(),1);
+    setTimeout(images(),1);
+
 
     $('body').on('click', '.sideNews', function(){
         //console.log($(this).find(".article_form"));
@@ -114,6 +116,34 @@ function players(){
             }
         }
     );
+}
+
+function images(){
+    $.ajax({
+        url: "/jabronis/test/getImages" ,
+        type: "GET",
+        dataType: "json"
+    })
+        .error(
+        function(){
+            console.log("Error: fuck");
+        })
+        .success(
+        function(data){
+            for(var key in data){
+                if(data.hasOwnProperty(key)){
+                    //console.log(data[key]);
+                    addImage(data[key]);
+                }
+            }
+        }
+    );
+}
+
+function addImage(data){
+    var t = '';
+    t += '<option value="' + data.image_id +'">' + data.src + '</option>';
+    $(".addArtPic").append(t);
 }
 
 function sortPlayers(players){
