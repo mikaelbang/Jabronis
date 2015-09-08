@@ -20,7 +20,7 @@
         </div>
         <div class="row col-md-12 sideNewsArchive">
             <div class="sideNewsContent">
-                <p class="sideNewsText archiveText">Läs fler nyheter från arkivet >></p>
+                <a class="noStyle" href="/jabronis/test/arkiv"><p class="sideNewsText archiveText">Läs fler nyheter från arkivet &raquo;</p></a>
             </div>
         </div>
     </div>

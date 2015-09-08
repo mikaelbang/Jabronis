@@ -362,9 +362,9 @@ b, strong, i {
 .newsPicText{
     color: #ffffff;
     text-align: left;
-    font-size: 30px;
+    font-size: 20px;
     margin-left: 20px;
-    padding-top: 10px;
+    padding-top: 16px;
     white-space: nowrap;
     overflow:hidden !important;
     text-overflow: ellipsis;
@@ -798,6 +798,11 @@ a:focus{
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+}
+
+.allNews:hover{
+    background-color: rgba(0,0,0,0.1);
+    cursor: pointer;
 }
 
 .addInput{

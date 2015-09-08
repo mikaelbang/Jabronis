@@ -154,6 +154,7 @@ function images(){
     );
 }
 
+
 function addImage(data){
     var t = '';
     t += '<option value="' + data.image_id +'">' + data.src + '</option>';
