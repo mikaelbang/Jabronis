@@ -36,7 +36,7 @@ Class Testcontroller{
 
     public function galleriAction(){
         $db = new Database();
-        $query = "SELECT images.src, A.content, A.headline FROM images JOIN articles_images AS AI ON (AI.image_id = images.image_id) JOIN articles AS A ON (A.article_id = AI.article_id) LIMIT 4";
+        $query = "SELECT A.article_id, I.Image_id, I.src, A.content, A.headline, A.created FROM articles AS A LEFT JOIN articles_images AS AI ON (AI.article_id = A.article_id) LEFT JOIN images AS I ON (AI.image_id = I.image_id) ORDER BY A.created DESC";
         $result = $db->getRows($query);
 
         echo(json_encode($result));
