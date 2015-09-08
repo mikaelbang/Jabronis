@@ -195,7 +195,7 @@ function addAllArticles(data){
     t +=    '<td class="allNews"><span class="newsDate">' + data.created + '</span>' + data.headline + '</td>';
     t += '</tr>';
 
-    $(".articleTable").after(t);
+    $(".articleTable").append(t);
 }
 
 

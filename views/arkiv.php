@@ -6,7 +6,6 @@
             <p>Alla nyheter</p>
         </div>
         <tr>
-            <td class="allNews"><span class="newsDate">2015-07-09</span>Massa olika rubriker jaaaaaaaaaaaaaaaaoo smala sussie lalallalalalalallalalalalallalalalalallalalalalallalalalal</td>
         </tr>
     </table>
 </div>
