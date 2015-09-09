@@ -85,9 +85,12 @@ Class Testcontroller{
     public function uploadAction(){
         $db = new Database();
         if(isset($_POST["upload_button"]) && !empty($_POST["imgSrc"])){
-        $query = "INSERT INTO images(src) VALUES (:imgSrc)";
-        $params = [':imgSrc' => htmlentities($_POST["imgSrc"])];
-        $upload = $db->insertRow($query, $params);
+            $query = "INSERT INTO images(src) VALUES (:imgSrc)";
+            $params = [':imgSrc' => htmlentities($_POST["imgSrc"])];
+            $upload = $db->insertRow($query, $params);
+
+            $this->adminAction();
+
         }
     }
 
@@ -117,9 +120,24 @@ Class Testcontroller{
         require_once "views/galleri.php";
     }
 
+    public function showAdminAction(){
+        require_once "views/admin.php";
+
+    }
+
     public function adminAction(){
 
-        require_once "views/admin.php";
+        if(isset($_POST["login_button"])){
+            if($this->verification()){
+
+                $this->showAdminAction();
+            }
+            else{
+
+                var_dump('du är inte admin');
+
+            }
+        }
 
     }
 
@@ -131,6 +149,28 @@ Class Testcontroller{
         echo(json_encode($result));
     }
 
+    protected function verification(){
 
 
+
+        $db = new Database();
+        $query = "SELECT * FROM users WHERE username = :username AND password = :password";
+        $params = [':username' => htmlentities($_POST["username"]), ':password' => htmlentities($_POST["password"])];
+        $result = $db->getRow($query, $params);
+
+
+
+        if(!empty($result)){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
+    public function loginAction(){
+
+        require_once "views/login.php";
+
+    }
 }
