@@ -62,7 +62,6 @@ body{
 }
 
 .singlePlayer{
-    width: 600px;
     background-color: white;
     text-align: center;
     margin: 0 auto;
@@ -81,6 +80,15 @@ body{
 
 .singlePlayerName{
 
+}
+
+@media (max-width: 991px){
+    .singlePLayer {
+        width: 80%;
+    }
+    .singlePlayerContent{
+        margin-top: -300px;
+    }
 }
 
 .singleName{
@@ -521,6 +529,7 @@ body{
 
 .player{
     margin-bottom: 20px;
+    width: inherit;
 }
 
 .player:hover{
@@ -674,6 +683,12 @@ body{
 @media (max-width: 991px){
     .galleriPic {
         width: 100%;
+    }
+}
+
+@media (min-width: 1199px){
+    .singlePlayer {
+        width: 600px;
     }
 }
 
@@ -861,5 +876,44 @@ a:focus{
     margin-top: 15px;
 }
 
+.loginContent{
+    background-color: rgba(0,0,0,0.6);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
+.loginName{
+    width: 70%;
+    height: 50px;
+    padding-left: 15px;
+}
+
+.loginButton{
+    width: 70%;
+    height: 50px;
+    color: white;
+    background-color: #136d2d;
+    border: none;
+    margin-top: 15px;
+    outline: none;
+}
+
+.loginButton:active{
+    background-color: #115726;
+    outline: none;
+}
+
+.loginImg{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.loginPic{
+    width: 250px;
+}
+
+.loginText{
+    color: white;
+    font-size: 16px;
+}
 
