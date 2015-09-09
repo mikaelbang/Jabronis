@@ -7,12 +7,19 @@ $(document).ready(function(){
 
     //Submits clicked article on the side-news-bar
     $('body').on('click', '.sideNews', function(){
-        //console.log($(this).find(".article_form"));
+        var form1 = $(this).find(".article_form");
+        form1.submit();
+    });
+
+    $('body').on('click', '.article_submit', function(){
         var form = $(this).find(".article_form");
-        var article_id = $(this).find("#hidden_article_id").val();
+        console.log(form);
+        var article_id = $(this).find(".hidden_article_id").val();
+        console.log(article_id);
         form.submit();
     });
-    //Adds the info of the clicked player on spelare.php
+
+        //Adds the info of the clicked player on spelare.php
     $('body').on('click', '.player', function(){
         event.preventDefault();
         $(".singlePlayerContent").slideDown();

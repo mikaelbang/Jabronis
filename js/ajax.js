@@ -110,7 +110,7 @@ function sortPlayers(players){
 }
 
 function addPlayerHTML(player){
-    console.log(player.first_name + ' va');
+    //console.log(player.first_name + ' va');
     var img_src = player.src;
     if(player.src == null){
         img_src = "/jabronis/img/anonym.png";
@@ -144,7 +144,7 @@ function addArticles(data){
     t += '<div class="row col-md-12 sideNews">';
     t +=    '<div class="sideNewsContent">';
     t +=        '<form class="article_form" method="post" action="/jabronis/test/article">';
-    t +=            '<input type="hidden" id="hidden_article_id" name="hidden_article_id" value="'+ data.article_id +'" />';
+    t +=            '<input type="hidden" class="hidden_article_id" name="hidden_article_id" value="'+ data.article_id +'" />';
     t +=            '<p class="sideNewsText"><span class="newsDate">' + date + '</span>'+ data.headline +'</p>';
     t +=        '</form>';
     t +=    '</div>';
@@ -154,10 +154,14 @@ function addArticles(data){
 }
 
 function addAllArticles(data){
-    console.log(data);
+    //console.log(data);
     var t = '';
-    t += '<tr>';
-    t +=    '<td class="allNews"><span class="newsDate">' + data.created + '</span>' + data.headline + '</td>';
+    t += '<tr class="article_submit">';
+    t +=    '<td class="allNews"><span class="newsDate">' + data.created + '</span>' + data.headline;
+    t +=        '<form class="article_form" method="post" action="/jabronis/test/article">';
+    t +=        '<input type="hidden" class="hidden_article_id" name="hidden_article_id" value="'+ data.article_id +'" />';
+    t +=        '</form>';
+    t +=    '</td>';
     t += '</tr>';
 
     $(".articleTable").append(t);
