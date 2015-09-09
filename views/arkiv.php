@@ -5,8 +5,7 @@
         <div class="allNewsHeadline">
             <p>Alla nyheter</p>
         </div>
-        <tr>
-        </tr>
+
     </table>
 </div>
 
