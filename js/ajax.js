@@ -155,9 +155,14 @@ function addArticles(data){
 
 function addAllArticles(data){
     //console.log(data);
+
+    var d = data.created;
+    var da = d.substring(5, 11);
+    var date = da.replace("-", "/");
+
     var t = '';
     t += '<tr class="article_submit">';
-    t +=    '<td class="allNews"><span class="newsDate">' + data.created + '</span>' + data.headline;
+    t +=    '<td class="allNews"><span class="newsDate">' + date + '</span>' + data.headline;
     t +=        '<form class="article_form" method="post" action="/jabronis/test/article">';
     t +=        '<input type="hidden" class="hidden_article_id" name="hidden_article_id" value="'+ data.article_id +'" />';
     t +=        '</form>';

@@ -93,6 +93,25 @@ $(document).ready(function(){
         $(".news4").show();
     });
 
+    $(".firstImg").mouseover(function(){
+        event.preventDefault();
+        $(".firstPic").show();
+        $(this).hide();
+    });
+
+
+    $(".secondImg").onmouseover(function(){
+        event.preventDefault();
+        $(".secondPic").show();
+        $(".secondImg").hide();
+    });
+
+    $(".thirdImg").hover(function(){
+        event.preventDefault();
+        $(".thirdPic").show();
+        $(".thirdImg").hide();
+    });
+
     $("#addImg").click(function(){
         event.preventDefault();
         $(".addPlayerContent").hide();
@@ -114,6 +133,7 @@ $(document).ready(function(){
         $(".addArticleContent").show();
         $(".addImageContent").hide();
     })
+
 
 });
 

@@ -39,11 +39,14 @@
     <div class="col-md-7">
         <h1 class="formHeadline">Vill du spela i Jabronis? Hör av dig här:</h1>
         <div class="contactForm">
-            <input class="contactFormName" type="text" placeholder="Ditt Namn..." required=""/>
-            <input class="contactFormName" type="text" placeholder="Din Mail..." required=""/>
-            <input class="contactFormName" type="text" placeholder="Ditt Nummer..." required=""/>
-            <textarea class="formTextarea" placeholder="Ditt meddelande..."></textarea>
-            <button  class="sendButton">SKICKA</button>
+            <form method="post" action="/jabronis/test/postMail">
+                <p id="returnMessage"></p>
+                <input class="contactFormName" name="form_name" type="text" placeholder="Ditt Namn..." required=""/>
+                <input class="contactFormName" name="form_mail" type="text" placeholder="Din Mail..." required=""/>
+                <input class="contactFormName" name="form_nr" type="text" placeholder="Ditt Nummer..." required=""/>
+                <textarea class="formTextarea" name="form_message" placeholder="Ditt meddelande..."></textarea>
+                <button  class="sendButton" name="send_email_button">SKICKA</button>
+            </form>
         </div>
     </div>
 </div>

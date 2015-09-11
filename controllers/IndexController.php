@@ -173,4 +173,21 @@ Class Testcontroller{
         require_once "views/login.php";
 
     }
+
+    public function postMailAction(){
+
+        $name = $_POST["form_name"];
+        $sender_email = $_POST["form_mail"];
+        $number = $_POST["form_nr"];
+        $message = $_POST["form_message"];
+
+        $email_subject = "Jabronis Intresse";
+        $email_body = 'Du har fått mail från $name'."\n". 'Email adress: $sender_email'."\n". 'Meddelandet: $message'."\n";
+        $to = 'richard.bang@live.se';
+        $headers = 'From: richard.bang@live.se'."\r\n";
+
+        if(isset($_POST["send_email_button"]) && !empty($name) && !empty($sender_email) && !empty($number) && !empty($message)){
+            mail($to,$email_subject,$email_body,$headers);
+        }
+    }
 }
