@@ -31,7 +31,7 @@
                 <a href="/jabronis" class="noStyle"><img class="headLogo" src="/jabronis/img/vektorTRY2.png"></a>
             </div>
             <div class="col-md-9">
-                <a class="noStyle" href="/jabronis/test/index"><p class="headLogoText">JABRONIS HOCKEY CLUB</p></a>
+                <a class="noStyle" href="/jabronis"><p class="headLogoText">JABRONIS HOCKEY CLUB</p></a>
             </div>
         </div>
         <div class="row col-lg-10 col-lg-offset-1">
@@ -51,16 +51,16 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li><a href="/jabronis/test/players">Spelare <span class="sr-only">(current)</span></a></li>
+                            <li><a href="/jabronis/view/players">Spelare <span class="sr-only">(current)</span></a></li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Scheman <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="#">Matcher</a></li>
-                                    <li><a href="/jabronis/test/schedule">Spelschema</a></li>
+                                    <li><a href="/jabronis/view/schedule">Spelschema</a></li>
                                     <li><a href="#">Träning</a></li>
                                 </ul>
                             </li>
-                            <li><a href="/jabronis/test/contact">Kontakta oss</a></li>
+                            <li><a href="/jabronis/view/contact">Kontakta oss</a></li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right play">
                             <li><a href="#">PLAY</a></li>
