@@ -45,22 +45,13 @@
     </div>
     <div class="row middleContent col-md-12">
         <div class="col-md-4 middleBorder firstImg">
-            <img src="/jabronis/img/thirdJersey.png" class="middlePic">
-        </div>
-        <div class="col-md-4 middleBorder otherImg firstPic">
-            <img src="/jabronis/img/thirduniform.png" class="middlePic">
+            <img src="/jabronis/img/thirdJersey.png"  data-alt-src="/jabronis/img/thirduniform.png" id="middlePic3" class="middlePic">
         </div>
         <div class="col-md-4 middleBorder secondImg">
-            <img src="/jabronis/img/awayjab.png" class="middlePic">
-        </div>
-        <div class="col-md-4 middleBorder otherImg secondPic">
-            <img src="/jabronis/img/seconduniform.png" class="middlePic">
+            <img src="/jabronis/img/awayjab.png" data-alt-src="/jabronis/img/seconduniform.png" id="middlePic2" class="middlePic">
         </div>
         <div class="col-md-4 middleBorder thirdImg">
-            <img src="/jabronis/img/colorado.png" class="middlePic">
-        </div>
-        <div class="col-md-4 middleBorder otherImg thirdPic">
-            <img src="/jabronis/img/firstuniform.png" class="middlePic">
+            <img src="/jabronis/img/colorado.png" data-alt-src="/jabronis/img/firstjersey.png" id="middlePic1" class="middlePic">
         </div>
     </div>
     <div class="row col-md-10 col-md-offset-1 addBorder">
