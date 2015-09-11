@@ -93,6 +93,20 @@ $(document).ready(function(){
         $(".news4").show();
     });
 
+    var sourceSwap = function () {
+        var $this = $(this);
+        var newSource = $this.data('alt-src');
+        $this.data('alt-src', $this.attr('src'));
+        $this.attr('src', newSource);
+    }
+
+    $(function () {
+        $('img#middlePic3').hover(sourceSwap, sourceSwap);
+        $('img#middlePic2').hover(sourceSwap, sourceSwap);
+        $('img#middlePic1').hover(sourceSwap, sourceSwap);
+    });
+
+
     $("#addImg").click(function(){
         event.preventDefault();
         $(".addPlayerContent").hide();
@@ -114,6 +128,7 @@ $(document).ready(function(){
         $(".addArticleContent").show();
         $(".addImageContent").hide();
     })
+
 
 });
 
