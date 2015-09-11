@@ -19,7 +19,7 @@
         </div>
         <div class="row col-md-6 col-md-offset-3 loginContent">
             <p class="loginText">Logga in som admin</p>
-            <form method="post" action="/jabronis/test/admin">
+            <form method="post" action="/jabronis/admin/index">
                 <input class="loginName" type="text" name="username" placeholder="Användarnamn" required=""/>
                 <input class="loginName" type="password" name="password" placeholder="Lösenord" required=""/>
                 <button class="loginButton" type="submit" name="login_button">Logga in</button>

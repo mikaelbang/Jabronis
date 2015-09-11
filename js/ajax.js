@@ -14,7 +14,7 @@ $(document).ready(function(){
 //Ajax call that gets all articles and places them in different html.
 function articles(){
     $.ajax({
-        url: "/jabronis/test/galleri" ,
+        url: "/jabronis/ajax/galleri" ,
         type: "GET",
         dataType: "json"
     })
@@ -47,7 +47,7 @@ function articles(){
 
 function players(){
     $.ajax({
-        url: "/jabronis/test/getPlayers" ,
+        url: "/jabronis/ajax/getPlayers" ,
         type: "GET",
         dataType: "json"
     })
@@ -69,7 +69,7 @@ function players(){
 
 function images(){
     $.ajax({
-        url: "/jabronis/test/getImages" ,
+        url: "/jabronis/ajax/getImages" ,
         type: "GET",
         dataType: "json"
     })
@@ -141,14 +141,13 @@ function addArticles(data){
     var date = da.replace("-", "/");
 
     var t = '';
+    t += '<a href="/jabronis/view/article/?id='+ data.article_id +'">';
     t += '<div class="row col-md-12 sideNews">';
     t +=    '<div class="sideNewsContent">';
-    t +=        '<form class="article_form" method="post" action="/jabronis/test/article">';
-    t +=            '<input type="hidden" class="hidden_article_id" name="hidden_article_id" value="'+ data.article_id +'" />';
-    t +=            '<p class="sideNewsText"><span class="newsDate">' + date + '</span>'+ data.headline +'</p>';
-    t +=        '</form>';
+    t +=        '<p class="sideNewsText"><span class="newsDate">' + date + '</span>'+ data.headline +'</p>';
     t +=    '</div>';
     t += '</div>';
+    t += '</a>';
 
     $(".sideNewsArchive").before(t);
 }
@@ -162,11 +161,7 @@ function addAllArticles(data){
 
     var t = '';
     t += '<tr class="article_submit">';
-    t +=    '<td class="allNews"><span class="newsDate">' + date + '</span>' + data.headline;
-    t +=        '<form class="article_form" method="post" action="/jabronis/test/article">';
-    t +=        '<input type="hidden" class="hidden_article_id" name="hidden_article_id" value="'+ data.article_id +'" />';
-    t +=        '</form>';
-    t +=    '</td>';
+    t +=    '<td class="allNews"><a href="/jabronis/view/article/?id='+ data.article_id +'"><span class="newsDate">' + data.created + '</span>' + data.headline +'</a></td>';
     t += '</tr>';
 
     $(".articleTable").append(t);

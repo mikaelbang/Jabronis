@@ -36,12 +36,12 @@
         </div>
         <div class="row col-md-12 sideNewsArchive">
             <div class="sideNewsContent">
-                <a class="noStyle" href="/jabronis/test/arkiv"><p class="sideNewsText archiveText">Läs fler nyheter från arkivet &raquo;</p></a>
+                <a class="noStyle" href="/jabronis/view/arkiv"><p class="sideNewsText archiveText">Läs fler nyheter från arkivet &raquo;</p></a>
             </div>
         </div>
     </div>
     <div class="col-sm-12 galleri">
-       <a href="/Jabronis/test/gallery"><img src="/jabronis/img/galleri.png" class="galleriPic"></a>
+       <a href="/Jabronis/view/gallery"><img src="/jabronis/img/galleri.png" class="galleriPic"></a>
     </div>
     <div class="row middleContent col-md-12">
         <div class="col-md-4 middleBorder firstImg">

@@ -6,10 +6,10 @@
 $(document).ready(function(){
 
     //Submits clicked article on the side-news-bar
-    $('body').on('click', '.sideNews', function(){
+    /*$('body').on('click', '.sideNews', function(){
         var form1 = $(this).find(".article_form");
         form1.submit();
-    });
+    });*/
 
     $('body').on('click', '.article_submit', function(){
         var form = $(this).find(".article_form");
