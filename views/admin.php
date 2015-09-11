@@ -19,7 +19,7 @@
             <a href="/jabronis" class="noStyle"><img class="headLogo" src="/jabronis/img/vektorTRY2.png"></a>
         </div>
         <div class="col-md-9">
-            <a class="noStyle" href="/jabronis/test/index"><p class="headLogoText">JABRONIS HOCKEY CLUB</p></a>
+            <a class="noStyle" href="/jabronis"><p class="headLogoText">JABRONIS HOCKEY CLUB</p></a>
         </div>
     </div>
     <div class="row col-lg-10 col-lg-offset-1">
@@ -49,13 +49,13 @@
     <div class="row col-lg-10 col-lg-offset-1">
         <div class="row col-sm-12 allContent">
             <div class="addImageContent col-md-8 col-md-offset-2">
-                <form method="post" action="../test/upload">
+                <form method="post" action="/jabronis/admin/upload">
                     <input class="addInput" placeholder="Img src: /jabronis/img/example.png" name="imgSrc" required=""/>
                     <button type="submit" name="upload_button" class="uploadImg">Upload</button>
                 </form>
             </div>
             <div class="addArticleContent col-md-8 col-md-offset-2">
-                <form method="post" action="../test/post">
+                <form method="post" action="/jabronis/admin/post">
                     <input class="addInput" type="text" name="headline" placeholder="Headline" required="" />
                     <textarea class="addInput addContent" name="content" required="" placeholder="Content"></textarea>
                     <select name="image_upload" class="addArtPic">
@@ -64,7 +64,7 @@
                 </form>
             </div>
             <div class="addPlayerContent col-md-8 col-md-offset-2">
-                <form action="../test/addPlayer" method="post">
+                <form action="/jabronis/admin/addPlayer" method="post">
                     <input class="addPlayerInput" name="first_name" type="text" required="" placeholder="First Name"/>
                     <input class="addPlayerInput" name="last_name" type="text" required="" placeholder="Last Name"/>
                     <input class="addPlayerInput" name="age" type="text" required="" placeholder="Age"/>
