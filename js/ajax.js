@@ -154,6 +154,11 @@ function addArticles(data){
 
 function addAllArticles(data){
     //console.log(data);
+
+    var d = data.created;
+    var da = d.substring(5, 11);
+    var date = da.replace("-", "/");
+
     var t = '';
     t += '<tr class="article_submit">';
     t +=    '<td class="allNews"><a href="/jabronis/view/article/?id='+ data.article_id +'"><span class="newsDate">' + data.created + '</span>' + data.headline +'</a></td>';
