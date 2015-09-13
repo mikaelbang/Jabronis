@@ -5,20 +5,6 @@
 
 $(document).ready(function(){
 
-    //Submits clicked article on the side-news-bar
-    /*$('body').on('click', '.sideNews', function(){
-        var form1 = $(this).find(".article_form");
-        form1.submit();
-    });*/
-
-    $('body').on('click', '.article_submit', function(){
-        var form = $(this).find(".article_form");
-        console.log(form);
-        var article_id = $(this).find(".hidden_article_id").val();
-        console.log(article_id);
-        form.submit();
-    });
-
         //Adds the info of the clicked player on spelare.php
     $('body').on('click', '.player', function(){
         event.preventDefault();
@@ -47,49 +33,29 @@ $(document).ready(function(){
     
     $(".pic1").hover(function(){
         event.preventDefault();
+        hideGallery();
         $(".img1").show();
-        $(".img2").hide();
-        $(".img3").hide();
-        $(".img4").hide();
         $(".news1").show();
-        $(".news2").hide();
-        $(".news3").hide();
-        $(".news4").hide();
     });
 
     $(".pic2").hover(function(){
         event.preventDefault();
-        $(".img1").hide();
+        hideGallery();
         $(".img2").show();
-        $(".img3").hide();
-        $(".img4").hide();
-        $(".news1").hide();
         $(".news2").show();
-        $(".news3").hide();
-        $(".news4").hide();
     });
 
     $(".pic3").hover(function(){
         event.preventDefault();
-        $(".img1").hide();
-        $(".img2").hide();
+        hideGallery();
         $(".img3").show();
-        $(".img4").hide();
-        $(".news1").hide();
-        $(".news2").hide();
         $(".news3").show();
-        $(".news4").hide();
     });
 
     $(".pic4").hover(function(){
         event.preventDefault();
-        $(".img1").hide();
-        $(".img2").hide();
-        $(".img3").hide();
+        hideGallery();
         $(".img4").show();
-        $(".news1").hide();
-        $(".news2").hide();
-        $(".news3").hide();
         $(".news4").show();
     });
 
@@ -142,6 +108,17 @@ $(document).ready(function(){
 
 
 });
+
+function hideGallery(){
+    $(".img1").hide();
+    $(".img2").hide();
+    $(".img3").hide();
+    $(".img4").hide();
+    $(".news1").hide();
+    $(".news2").hide();
+    $(".news3").hide();
+    $(".news4").hide();
+}
 
 $(document).ready(function(){
     $('li img').on('click',function(){

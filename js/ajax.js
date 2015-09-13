@@ -39,6 +39,8 @@ function articles(){
                     var x = Number(key);
                     var res = x + 1;
                     $(".news" + res).text(data[key].headline);
+                    $(".newslink" + res).attr("href", "/jabronis/view/article/?id=" + data[key].article_id);
+                    $(".imglink" + res).attr("href", "/jabronis/view/article/?id=" + data[key].article_id);
                     $(".img" + res).attr("src", data[key].src);
                     $(".pic" + res).attr("src", data[key].src);
                 }
