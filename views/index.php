@@ -2,17 +2,17 @@
 
     <div class="row col-md-8 frameContent">
         <div class="newsFrame">
-            <img src="" class="newsPic img1">
-            <img src="" class="newsPic img2">
-            <img src="" class="newsPic img3">
-            <img src="" class="newsPic img4">
+            <a class="imglink1" href=""><img src="" class="newsPic img1">
+            <a class="imglink1" href=""><img src="" class="newsPic img2">
+            <a class="imglink1" href=""><img src="" class="newsPic img3">
+            <a class="imglink1" href=""><img src="" class="newsPic img4">
         </div>
         <div class="picHeadline">
             <div class="newsFrameText">
-                <p class="newsPicText news1"></p>
-                <p class="newsPicText news2"></p>
-                <p class="newsPicText news3"></p>
-                <p class="newsPicText news4"></p>
+                <a class="newslink1" href=""><p class="newsPicText news1"></p></a>
+                <a class="newslink2" href=""><p class="newsPicText news2"></p></a>
+                <a class="newslink3" href=""><p class="newsPicText news3"></p></a>
+                <a class="newslink4" href=""><p class="newsPicText news4"></p></a>
             </div>
         </div>
         <div class="miniPics">
