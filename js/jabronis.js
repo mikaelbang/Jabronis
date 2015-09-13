@@ -112,6 +112,7 @@ $(document).ready(function(){
         $(".addPlayerContent").hide();
         $(".addArticleContent").hide();
         $(".addImageContent").show();
+        $(".addScheduleContent").hide();
     })
 
     $("#addPlayer").click(function(){
@@ -119,6 +120,15 @@ $(document).ready(function(){
         $(".addPlayerContent").show();
         $(".addArticleContent").hide();
         $(".addImageContent").hide();
+        $(".addScheduleContent").hide();
+    })
+
+    $("#addSchedule").click(function(){
+        event.preventDefault();
+        $(".addPlayerContent").hide();
+        $(".addArticleContent").hide();
+        $(".addImageContent").hide();
+        $(".addScheduleContent").show();
     })
 
 
@@ -127,6 +137,7 @@ $(document).ready(function(){
         $(".addPlayerContent").hide();
         $(".addArticleContent").show();
         $(".addImageContent").hide();
+        $(".addScheduleContent").hide();
     })
 
 

@@ -22,6 +22,18 @@ Class AdminController{
         }
     }
 
+    public function addScheduleAction(){
+        $timeField = ($_POST["schedule_time_from"]) . " - " . ($_POST["schedule_time_to"]);
+
+        $db = new Database();
+        if(isset($_POST["add_schedule_button"]) && !empty($_POST["schedule_date"]) && !empty($_POST["schedule_time_from"])  && !empty($_POST["schedule_time_to"]) && !empty($_POST["schedule_arena"])){
+            $query = "INSERT INTO schedules(schedules.date, schedules.time, arena, article_id) VALUES (:schedule_date, :schedule_time, :arena, :article_id)";
+            $params = [':schedule_date' => htmlentities($_POST["schedule_date"]), ':schedule_time' => htmlentities($timeField), ':arena' => htmlentities($_POST["schedule_arena"]), ':article_id' => htmlentities($_POST["schedule_article"]) ];
+            $upload = $db->insertRow($query, $params);
+        }
+    }
+
+
     public function addPlayerAction(){
         $db = new Database();
         if(isset($_POST["add_player_button"]) && !empty($_POST["first_name"]) && !empty($_POST["last_name"]) && !empty($_POST["age"]) && !empty($_POST["number"]) && !empty($_POST["player_info"])){

@@ -36,4 +36,12 @@ Class ViewController{
 
         require_once "views/nyheter.php";
     }
+
+    public function gamesAction(){
+        require_once "views/inget.php";
+    }
+
+    public function practiceAction(){
+        require_once "views/inget.php";
+    }
 }
