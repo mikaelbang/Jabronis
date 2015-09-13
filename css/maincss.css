@@ -21,6 +21,7 @@ body{
 
 .noStyle:hover{
     text-decoration: none;
+    color: #000000;
 }
 
 .wrapper{
@@ -848,6 +849,10 @@ a:focus{
 }
 
 .addPlayerContent{
+    display: none;
+}
+
+.addScheduleContent{
     display: none;
 }
 
