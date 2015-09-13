@@ -41,6 +41,8 @@
                         <li><a href="#" id="addArticle">Add Article</a></li>
                         <li><a href="#" id="addImg">Add Image</a></li>
                         <li><a href="#" id="addPlayer">Add Player</a></li>
+                        <li><a href="#" id="addSchedule">Add Schedule</a></li>
+
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -84,4 +86,17 @@
                     <button type="submit" name="add_player_button" class="playerButton">Add Player</button>
                 </form>
             </div>
+            <div class="addScheduleContent col-md-8 col-md-offset-2">
+                <form method="post" action="/jabronis/admin/addSchedule">
+                    <input name="schedule_date" type="date" class="addPlayerInput"/>
+                    <input name="schedule_time_from" type="time" class="addPlayerInput"/>
+                    <input name="schedule_time_to" type="time" class="addPlayerInput"/>
+                    <input name="schedule_arena" type="text" placeholder="Arena" class="addPlayerInput"/>
+                    <select name="schedule_article" class="addPlayerDd addScheduleArticle">
+                        <option>Add Article</option>
+                    </select>
+                    <button type="submit" name="add_schedule_button" class="playerButton">Add Schedule</button>
+                </form>
+            </div>
+
 <?php include 'footer.php'?>

@@ -35,6 +35,14 @@ Class AjaxController{
         echo(json_encode($result));
     }
 
+    public function getScheduleAction(){
+        $db = new Database();
+        $query = "SELECT * FROM schedules";
+        $result = $db->getRows($query);
+
+        echo(json_encode($result));
+    }
+
     public function getImagesAction(){
         $db = new Database();
         $query = "SELECT * FROM images";

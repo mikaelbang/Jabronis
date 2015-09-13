@@ -8,6 +8,7 @@ $(document).ready(function(){
     setTimeout(articles(),1);
     setTimeout(players(),1);
     setTimeout(images(),1);
+    setTimeout(schedules(),1);
 
 });
 
@@ -33,6 +34,7 @@ function articles(){
                         addArticles(data[key]);
                         i++;
                     }
+                    addScheduleArticles(data[key]);
                     addAllArticles(data[key]);
                     var x = Number(key);
                     var res = x + 1;
@@ -91,10 +93,52 @@ function images(){
     );
 }
 
+function schedules(){
+    $.ajax({
+        url: "/jabronis/ajax/getSchedule" ,
+        type: "GET",
+        dataType: "json"
+    })
+        .error(
+        function(){
+            console.log("Error: fuck");
+        })
+        .success(
+        function(data){
+            for(var key in data){
+                if(data.hasOwnProperty(key)){
+                    //console.log(data[key]);
+                    addSchedule(data[key]);
+                }
+            }
+        }
+    );
+}
+
+function addSchedule(data){
+    console.log(data);
+    var t = '';
+    t+='<tr>';
+    t+=    '<td class="tableItemText">' + data.date + '</td>';
+    t+=    '<td class="tableItemText">' + data.time + '</td>';
+    t+=    '<td class="tableItemText">' + data.arena + '</td>';
+    t+=    '<td class="tableItemText"><a href="/jabronis/view/article/?id=' + data.article_id + '">Läs mer &raquo;</a></td>';
+    t+='</tr>';
+    $(".scheduleTable").append(t);
+
+}
+
+
 function addImage(data){
     var t = '';
     t += '<option value="' + data.image_id +'">' + data.src + '</option>';
     $(".addArtPic").append(t);
+}
+
+function addScheduleArticles(data){
+    var t = '';
+    t += '<option value="' + data.article_id +'">' + data.headline + '</option>';
+    $(".addScheduleArticle").append(t);
 }
 
 function sortPlayers(players){
@@ -142,7 +186,7 @@ function addArticles(data){
     var date = da.replace("-", "/");
 
     var t = '';
-    t += '<a href="/jabronis/view/article/?id='+ data.article_id +'">';
+    t += '<a class="noStyle" href="/jabronis/view/article/?id='+ data.article_id +'">';
     t += '<div class="row col-md-12 sideNews">';
     t +=    '<div class="sideNewsContent">';
     t +=        '<p class="sideNewsText"><span class="newsDate">' + date + '</span>'+ data.headline +'</p>';

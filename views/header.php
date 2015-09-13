@@ -55,9 +55,9 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Scheman <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Matcher</a></li>
+                                    <li><a href="/jabronis/view/games">Matcher</a></li>
                                     <li><a href="/jabronis/view/schedule">Spelschema</a></li>
-                                    <li><a href="#">Träning</a></li>
+                                    <li><a href="/jabronis/view/practice">Träning</a></li>
                                 </ul>
                             </li>
                             <li><a href="/jabronis/view/contact">Kontakta oss</a></li>
