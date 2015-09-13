@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81a0e563-8130-493b-8c27-1d06d782a624" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Database.php" afterPath="$PROJECT_DIR$/Database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.php" afterPath="$PROJECT_DIR$/views/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Jabronis.iws" />
@@ -34,6 +36,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="43" selection-start="808" selection-end="808" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="1170">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="AdminController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/AdminController.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -52,10 +63,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajax.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ajax.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/ajax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="136" column="0" selection-start="3603" selection-end="3603" vertical-scroll-proportion="0.7764901" vertical-offset="1571" max-vertical-offset="3345">
+            <state line="136" column="0" selection-start="3603" selection-end="3603" vertical-scroll-proportion="0.0" vertical-offset="2040" max-vertical-offset="3345">
               <folding />
             </state>
           </provider>
@@ -65,6 +76,15 @@
         <entry file="file://$PROJECT_DIR$/views/spelschema.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="4" column="51" selection-start="152" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="300">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Database.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="126" selection-start="302" selection-end="302" vertical-scroll-proportion="0.24236985" vertical-offset="0" max-vertical-offset="1095">
               <folding />
             </state>
           </provider>
@@ -98,9 +118,7 @@
         <option value="$PROJECT_DIR$/views/kontakt.php" />
         <option value="$PROJECT_DIR$/controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/views/galleri.php" />
-        <option value="$PROJECT_DIR$/Database.php" />
         <option value="$PROJECT_DIR$/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/views/index.php" />
         <option value="$PROJECT_DIR$/controllers/ViewController.php" />
         <option value="$PROJECT_DIR$/views/header.php" />
         <option value="$PROJECT_DIR$/views/inget.php" />
@@ -111,6 +129,8 @@
         <option value="$PROJECT_DIR$/css/maincss.css" />
         <option value="$PROJECT_DIR$/views/spelschema.php" />
         <option value="$PROJECT_DIR$/js/ajax.js" />
+        <option value="$PROJECT_DIR$/views/index.php" />
+        <option value="$PROJECT_DIR$/Database.php" />
       </list>
     </option>
   </component>
@@ -146,6 +166,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -194,7 +215,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -506,13 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="35" selection-start="211" selection-end="211" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="1095">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2251" column="25" selection-start="36950" selection-end="36950" vertical-scroll-proportion="0.46193773" vertical-offset="33498" max-vertical-offset="98580">
@@ -523,13 +536,6 @@
     <entry file="file://$PROJECT_DIR$/views/kontakt.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="55" selection-start="1194" selection-end="1194" vertical-scroll-proportion="-5.0833335" vertical-offset="313" max-vertical-offset="930">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="48" selection-start="1170" selection-end="1170" vertical-scroll-proportion="-20.625" vertical-offset="0" max-vertical-offset="1170">
           <folding />
         </state>
       </provider>
@@ -599,7 +605,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/ajax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="0" selection-start="3603" selection-end="3603" vertical-scroll-proportion="0.7764901" vertical-offset="1571" max-vertical-offset="3345">
+        <state line="136" column="0" selection-start="3603" selection-end="3603" vertical-scroll-proportion="0.0" vertical-offset="2040" max-vertical-offset="3345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="43" selection-start="808" selection-end="808" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="1170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="126" selection-start="302" selection-end="302" vertical-scroll-proportion="0.24236985" vertical-offset="0" max-vertical-offset="1095">
           <folding />
         </state>
       </provider>
