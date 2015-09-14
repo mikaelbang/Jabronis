@@ -695,10 +695,10 @@ body{
 
 .smallPics{
     cursor: pointer;
-    max-width: 130px;
+    width: 130px;
     margin-bottom: 15px;
     margin-left: -35px;
-    max-height: 72px;
+    height: 72px;
 
 }
 
@@ -753,6 +753,7 @@ a:focus{
 
 .bigGalleriPic{
     margin: 0 auto;
+    max-height: 500px;
 }
 
 .failHeadline{
