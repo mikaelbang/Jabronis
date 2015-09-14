@@ -57,7 +57,6 @@ Class AdminController{
             else{
                 $error = "Fel lösenord eller användarnamn.";
                 $this->loginAction($error);
-                var_dump('du är inte admin');
             }
         }
     }
