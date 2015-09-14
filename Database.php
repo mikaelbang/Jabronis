@@ -12,7 +12,8 @@ Class Database{
     protected $datab;
     public  $lastId;
 
-    public function __construct($username = "root", $password = "root", $host = "localhost", $dbname = "jabronis", $options = []){
+    public function __construct($username = "206802_vw40515", $password = "slicky12", $host = "jabronis-206802.mysql.binero.se", $dbname = "206802-jabronis", $options = []){
+
         $this->isConnected = true;
 
         try{

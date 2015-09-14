@@ -27,7 +27,7 @@ Class ViewController{
         require_once "views/galleri.php";
     }
 
-    public function articleAction($id1){
+    public function articleAction(){
         $id1 = $_GET['id'];
         $db = new Database();
         $query = "SELECT * FROM images JOIN articles_images AS AI ON (AI.image_id = images.image_id) JOIN articles AS A ON (A.article_id = AI.article_id) WHERE A.article_id = :article_id";

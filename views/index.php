@@ -3,9 +3,9 @@
     <div class="row col-md-8 frameContent">
         <div class="newsFrame">
             <a class="imglink1" href=""><img src="" class="newsPic img1">
-            <a class="imglink1" href=""><img src="" class="newsPic img2">
-            <a class="imglink1" href=""><img src="" class="newsPic img3">
-            <a class="imglink1" href=""><img src="" class="newsPic img4">
+            <a class="imglink2" href=""><img src="" class="newsPic img2">
+            <a class="imglink3" href=""><img src="" class="newsPic img3">
+            <a class="imglink4" href=""><img src="" class="newsPic img4">
         </div>
         <div class="picHeadline">
             <div class="newsFrameText">
