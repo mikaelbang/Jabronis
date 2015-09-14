@@ -2,7 +2,8 @@
 
 Class AdminController{
 
-    public function loginAction(){
+    public function loginAction($error){
+        if(isset($error));
         require_once "views/login.php";
     }
 
@@ -54,6 +55,8 @@ Class AdminController{
                 $this->showAdminAction();
             }
             else{
+                $error = "Fel lösenord eller användarnamn.";
+                $this->loginAction($error);
                 var_dump('du är inte admin');
             }
         }

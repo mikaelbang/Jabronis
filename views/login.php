@@ -16,6 +16,9 @@
     <div class="container-fluid text-center wrapper">
         <div class="row col-md-6 col-md-offset-3 loginImg">
             <img src="/jabronis/img/vektorTRY2.png" class="loginPic">
+            <div class="errorMsg">
+                <p><?php echo $error; ?></p>
+            </div>
         </div>
         <div class="row col-md-6 col-md-offset-3 loginContent">
             <p class="loginText">Logga in som admin</p>
