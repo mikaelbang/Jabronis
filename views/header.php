@@ -63,7 +63,7 @@
                             <li><a href="/jabronis/view/contact">Kontakta oss</a></li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right play">
-                            <li><a href="#">PLAY</a></li>
+                            <li><a href="/jabronis/view/play">PLAY</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->

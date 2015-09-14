@@ -9,10 +9,10 @@
         </div>
         <div class="picHeadline">
             <div class="newsFrameText">
-                <a class="newslink1" href=""><p class="newsPicText news1"></p></a>
-                <a class="newslink2" href=""><p class="newsPicText news2"></p></a>
-                <a class="newslink3" href=""><p class="newsPicText news3"></p></a>
-                <a class="newslink4" href=""><p class="newsPicText news4"></p></a>
+                <a class="newslink1 noStyle" href=""><p class="newsPicText news1"></p></a>
+                <a class="newslink2 noStyle" href=""><p class="newsPicText news2"></p></a>
+                <a class="newslink3 noStyle" href=""><p class="newsPicText news3"></p></a>
+                <a class="newslink4 noStyle" href=""><p class="newsPicText news4"></p></a>
             </div>
         </div>
         <div class="miniPics">

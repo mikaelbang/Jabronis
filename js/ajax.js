@@ -87,6 +87,7 @@ function images(){
                 if(data.hasOwnProperty(key)){
                     //console.log(data[key]);
                     addImage(data[key]);
+                    addGalleryImage(data[key]);
                 }
             }
         }
@@ -133,6 +134,12 @@ function addImage(data){
     var t = '';
     t += '<option value="' + data.image_id +'">' + data.src + '</option>';
     $(".addArtPic").append(t);
+}
+
+function addGalleryImage(data){
+    var t = '';
+    t += '<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="smallPics" src="' + data.src + '"/></li>';
+    $(".galleryContent").append(t);
 }
 
 function addScheduleArticles(data){
@@ -211,6 +218,9 @@ function addAllArticles(data){
 
     $(".articleTable").append(t);
 }
+
+
+
 
 
 

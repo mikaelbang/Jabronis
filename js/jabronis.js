@@ -121,7 +121,7 @@ function hideGallery(){
 }
 
 $(document).ready(function(){
-    $('li img').on('click',function(){
+    $('body').on('click', 'li img',function(){
         var src = $(this).attr('src');
         var img = '<img src="' + src + '" class="img-responsive bigGalleriPic"/>';
 
@@ -157,7 +157,8 @@ $(document).on('click', 'a.controls', function(){
     if($(this).hasClass('previous')){
         $(this).attr('href', newPrevIndex);
         $('a.next').attr('href', newNextIndex);
-    }else{
+    }
+    else{
         $(this).attr('href', newNextIndex);
         $('a.previous').attr('href', newPrevIndex);
     }
@@ -180,7 +181,6 @@ $(document).on('click', 'a.controls', function(){
         //this will hide or show the right links:
         $('a.controls').trigger('click');
     })
-
     return false;
 
 });
