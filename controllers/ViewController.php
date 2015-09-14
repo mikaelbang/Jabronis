@@ -44,4 +44,26 @@ Class ViewController{
     public function practiceAction(){
         require_once "views/inget.php";
     }
+
+    public function playAction(){
+        require_once "views/inget.php";
+    }
+
+    public function mailAction(){
+
+        if(isset($_POST['send_email_button']) && !empty($_POST["form_name"]) && !empty($_POST["form_mail"]) && !empty($_POST["form_nr"]) && !empty($_POST["form_message"])){
+            $email_to = "jabronishc@gmail.com"; // this is your Email address
+            $from = htmlentities($_POST['form_mail']); // this is the sender's Email address
+            $name = htmlentities($_POST['form_name']);
+            $email_subject = "Form submission";
+            $email_message = $name . " " .  " wrote the following:" . "\n\n" . htmlentities($_POST['form_message']);
+
+            $headers = "From:" . $from;
+            mail($email_to,$email_subject,$email_message,$headers);
+            $this->contactAction();
+
+            echo "Mail Sent. Thank you " . $name . ", we will contact you shortly.";
+        }
+
+    }
 }
