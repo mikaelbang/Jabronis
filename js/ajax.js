@@ -118,6 +118,10 @@ function schedules(){
 
 function addSchedule(data){
     console.log(data);
+    var no_read = data.article_id;
+    if(data.article_id == 0){
+        no_read = "Inget att läsa";
+    }
     var t = '';
     t+='<tr>';
     t+=    '<td class="tableItemText">' + data.date + '</td>';

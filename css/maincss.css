@@ -796,6 +796,7 @@ a:focus{
 .archiveText{
     font-size: 12px;
     float: right;
+    padding-top: 2px;
 }
 
 .allNewsHeadline{
