@@ -64,7 +64,7 @@ $(document).ready(function(){
         var newSource = $this.data('alt-src');
         $this.data('alt-src', $this.attr('src'));
         $this.attr('src', newSource);
-    }
+    };
 
     $(function () {
         $('img#middlePic3').hover(sourceSwap, sourceSwap);
@@ -79,7 +79,7 @@ $(document).ready(function(){
         $(".addArticleContent").hide();
         $(".addImageContent").show();
         $(".addScheduleContent").hide();
-    })
+    });
 
     $("#addPlayer").click(function(){
         event.preventDefault();
@@ -87,7 +87,7 @@ $(document).ready(function(){
         $(".addArticleContent").hide();
         $(".addImageContent").hide();
         $(".addScheduleContent").hide();
-    })
+    });
 
     $("#addSchedule").click(function(){
         event.preventDefault();
@@ -95,7 +95,7 @@ $(document).ready(function(){
         $(".addArticleContent").hide();
         $(".addImageContent").hide();
         $(".addScheduleContent").show();
-    })
+    });
 
 
     $("#addArticle").click(function(){
@@ -104,7 +104,7 @@ $(document).ready(function(){
         $(".addArticleContent").show();
         $(".addImageContent").hide();
         $(".addScheduleContent").hide();
-    })
+    });
 
 
 });

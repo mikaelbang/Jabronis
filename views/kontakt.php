@@ -39,7 +39,7 @@
     <div class="col-md-7">
         <h1 class="formHeadline">Vill du spela i Jabronis? Hör av dig här:</h1>
         <div class="contactForm">
-            <form method="post" action="/jabronis/view/mail">
+            <form method="post" action="/view/mail">
                 <p id="returnMessage"></p>
                 <input class="contactFormName" name="form_name" type="text" placeholder="Ditt Namn..." required=""/>
                 <input class="contactFormName" name="form_mail" type="text" placeholder="Din Mail..." required=""/>

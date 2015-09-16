@@ -15,7 +15,7 @@ $(document).ready(function(){
 //Ajax call that gets all articles and places them in different html.
 function articles(){
     $.ajax({
-        url: "/jabronis/ajax/galleri" ,
+        url: "/ajax/galleri" ,
         type: "GET",
         dataType: "json"
     })
@@ -39,8 +39,8 @@ function articles(){
                     var x = Number(key);
                     var res = x + 1;
                     $(".news" + res).text(data[key].headline);
-                    $(".newslink" + res).attr("href", "/jabronis/view/article/?id=" + data[key].article_id);
-                    $(".imglink" + res).attr("href", "/jabronis/view/article/?id=" + data[key].article_id);
+                    $(".newslink" + res).attr("href", "/view/article/?id=" + data[key].article_id);
+                    $(".imglink" + res).attr("href", "/view/article/?id=" + data[key].article_id);
                     $(".img" + res).attr("src", data[key].src);
                     $(".pic" + res).attr("src", data[key].src);
                 }
@@ -51,7 +51,7 @@ function articles(){
 
 function players(){
     $.ajax({
-        url: "/jabronis/ajax/getPlayers" ,
+        url: "/ajax/getPlayers" ,
         type: "GET",
         dataType: "json"
     })
@@ -73,7 +73,7 @@ function players(){
 
 function images(){
     $.ajax({
-        url: "/jabronis/ajax/getImages" ,
+        url: "/ajax/getImages" ,
         type: "GET",
         dataType: "json"
     })
@@ -96,7 +96,7 @@ function images(){
 
 function schedules(){
     $.ajax({
-        url: "/jabronis/ajax/getSchedule" ,
+        url: "/ajax/getSchedule" ,
         type: "GET",
         dataType: "json"
     })
@@ -123,7 +123,7 @@ function addSchedule(data){
     t+=    '<td class="tableItemText">' + data.date + '</td>';
     t+=    '<td class="tableItemText">' + data.time + '</td>';
     t+=    '<td class="tableItemText">' + data.arena + '</td>';
-    t+=    '<td class="tableItemText"><a href="/jabronis/view/article/?id=' + data.article_id + '">Läs mer &raquo;</a></td>';
+    t+=    '<td class="tableItemText"><a href="/view/article/?id=' + data.article_id + '">Läs mer &raquo;</a></td>';
     t+='</tr>';
     $(".scheduleTable").append(t);
 
@@ -165,7 +165,7 @@ function addPlayerHTML(player){
     //console.log(player.first_name + ' va');
     var img_src = player.src;
     if(player.src == null){
-        img_src = "/jabronis/img/anonym.png";
+        img_src = "/img/anonym.png";
     }
     var g = '';
     g += '<div class="col-md-3 player text-center">';
@@ -193,7 +193,7 @@ function addArticles(data){
     var date = da.replace("-", "/");
 
     var t = '';
-    t += '<a class="noStyle" href="/jabronis/view/article/?id='+ data.article_id +'">';
+    t += '<a class="noStyle" href="/view/article/?id='+ data.article_id +'">';
     t += '<div class="row col-md-12 sideNews">';
     t +=    '<div class="sideNewsContent">';
     t +=        '<p class="sideNewsText"><span class="newsDate">' + date + '</span>'+ data.headline +'</p>';
@@ -213,7 +213,7 @@ function addAllArticles(data){
 
     var t = '';
     t += '<tr class="article_submit">';
-    t +=    '<td class="allNews"><a href="/jabronis/view/article/?id='+ data.article_id +'"><span class="newsDate">' + data.created + '</span>' + data.headline +'</a></td>';
+    t +=    '<td class="allNews"><a href="/view/article/?id='+ data.article_id +'"><span class="newsDate">' + data.created + '</span>' + data.headline +'</a></td>';
     t += '</tr>';
 
     $(".articleTable").append(t);

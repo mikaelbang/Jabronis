@@ -3,14 +3,14 @@
 
 @font-face {
     font-family: myFirstFont;
-    src: url(/jabronis/24003_LucidaGrande.ttf);
+    src: url(/24003_LucidaGrande.ttf);
 }
 
 body{
 
     font-family: myFirstFont;
     letter-spacing: 1px;
-    background: url("/jabronis/img/hockeybckr.png") repeat;
+    background: url("/img/hockeybckr.png") repeat;
     background-attachment: fixed;
 }
 

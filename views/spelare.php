@@ -6,7 +6,7 @@
             <button class="closeButton"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
             </button>
             <div class="col-md-5 singlePlayerPic">
-                <img src="/jabronis/img/henkebig.png" class="singlePlayerImg">
+                <img src="/img/henkebig.png" class="singlePlayerImg">
             </div>
 
             <div class="col-md-6 singlePlayerName">

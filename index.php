@@ -18,16 +18,16 @@ $controller = "ViewController";
 $action = "indexAction";
 
 
+if(!empty($requestURI[1])) {
+    $controller = $requestURI[1] . "Controller";
+}
+
 if(!empty($requestURI[2])) {
-    $controller = $requestURI[2] . "Controller";
-}
+    $action = $requestURI[2] . "Action";
 
+}
 if(!empty($requestURI[3])) {
-    $action = $requestURI[3] . "Action";
-
-}
-if(!empty($requestURI[4])) {
-    $param = $requestURI[4];
+    $param = $requestURI[3];
 
 }
 
