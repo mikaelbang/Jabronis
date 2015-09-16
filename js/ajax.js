@@ -38,6 +38,7 @@ function articles(){
                     addAllArticles(data[key]);
                     var x = Number(key);
                     var res = x + 1;
+                    console.log(data[key].headline + " - Snurran");
                     $(".news" + res).text(data[key].headline);
                     $(".newslink" + res).attr("href", "/jabronis/view/article/?id=" + data[key].article_id);
                     $(".imglink" + res).attr("href", "/jabronis/view/article/?id=" + data[key].article_id);
@@ -191,6 +192,8 @@ function addPlayerHTML(player){
 }
 
 function addArticles(data){
+
+    console.log(data.headline + " -news");
 
     var d = data.created;
     var da = d.substring(5, 11);

@@ -17,9 +17,14 @@ Class AdminController{
             $query = "INSERT INTO images(src) VALUES (:imgSrc)";
             $params = [':imgSrc' => htmlentities($_POST["imgSrc"])];
             $upload = $db->insertRow($query, $params);
-
-            $this->indexAction();
-
+            if($upload){
+                //echo("yes");
+                //header("Location: /jabronis/admin/index");
+                $this->indexAction($_SESSION['user']);
+            }
+            else{
+                var_dump("insert failed");
+            }
         }
     }
 
@@ -57,8 +62,14 @@ Class AdminController{
             else{
                 $error = "Fel lösenord eller användarnamn.";
                 $this->loginAction($error);
-                var_dump('du är inte admin');
             }
+        }
+        elseif($_SESSION['user'] == 'loggedIn'){
+            $this->showAdminAction();
+        }
+        else{
+            $error = "Du måste logga in";
+            $this->loginAction($error);
         }
     }
 
@@ -69,6 +80,7 @@ Class AdminController{
         $result = $db->getRow($query, $params);
 
         if(!empty($result)){
+            $_SESSION['user'] = 'loggedIn';
             return true;
         }
         else{
@@ -80,12 +92,16 @@ Class AdminController{
         $db = new Database();
         if(isset($_POST["post_article_button"]) && !empty($_POST["headline"]) && !empty($_POST["content"])){
             $query = "INSERT INTO articles(headline, content) VALUES (:headline, :content)";
-            $params = [':headline' => htmlentities($_POST["headline"]), ':content' => htmlentities($_POST["content"])];
+            $params = [':headline' => ($_POST["headline"]), ':content' => htmlentities($_POST["content"])];
             $post = $db->insertRow($query, $params);
             $last = $db->lastId;
             $query2 = "INSERT INTO articles_images(article_id, image_id) VALUES (:article_id, :image_id)";
             $params2 = [':article_id' => ($last), ':image_id' => ($_POST["image_upload"])];
             $post2 = $db->insertRow($query2, $params2);
+
+            if($post == true && $post2 == true){
+                $this->indexAction();
+            }
         }
     }
 }
