@@ -29,7 +29,7 @@ Class AjaxController{
 
     public function getPlayersAction(){
         $db = new Database();
-        $query = "SELECT * FROM players AS P LEFT JOIN players_images AS PI ON(P.player_id = PI.player_id) LEFT JOIN images AS I ON(PI.image_id = I.image_id) ORDER BY players.player_id DESC";
+        $query = "SELECT * FROM players AS P LEFT JOIN players_images AS PI ON(P.player_id = PI.player_id) LEFT JOIN images AS I ON(PI.image_id = I.image_id) ORDER BY P.player_id";
         $result = $db->getRows($query);
 
         echo(json_encode($result));

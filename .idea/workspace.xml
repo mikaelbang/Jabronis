@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="81a0e563-8130-493b-8c27-1d06d782a624" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/AjaxController.php" afterPath="$PROJECT_DIR$/controllers/AjaxController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
     </list>
     <ignored path="Jabronis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,14 +73,14 @@
       <file leaf-file-name="AjaxController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/AjaxController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="43" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.56122446" vertical-offset="180" max-vertical-offset="945">
+            <state line="31" column="178" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.33163264" vertical-offset="195" max-vertical-offset="945">
               <folding>
-                <marker date="1442394863000" expanded="true" signature="230:283" placeholder="SELECT * FRO..articles..." />
-                <marker date="1442394863000" expanded="true" signature="455:688" placeholder="SELECT A.art..articles..." />
-                <marker date="1442394863000" expanded="true" signature="863:1034" placeholder="SELECT * FRO..players..." />
-                <marker date="1442394863000" expanded="true" signature="1210:1233" placeholder="SELECT * FRO..schedules..." />
-                <marker date="1442394863000" expanded="true" signature="1407:1427" placeholder="SELECT * FRO..images..." />
-                <marker date="1442394863000" expanded="true" signature="1603:1647" placeholder="SELECT * FRO..articles..." />
+                <marker date="1442395016000" expanded="true" signature="230:283" placeholder="SELECT * FRO..articles..." />
+                <marker date="1442395016000" expanded="true" signature="455:688" placeholder="SELECT A.art..articles..." />
+                <marker date="1442395016000" expanded="true" signature="863:1023" placeholder="SELECT * FRO..players..." />
+                <marker date="1442395016000" expanded="true" signature="1199:1222" placeholder="SELECT * FRO..schedules..." />
+                <marker date="1442395016000" expanded="true" signature="1396:1416" placeholder="SELECT * FRO..images..." />
+                <marker date="1442395016000" expanded="true" signature="1592:1636" placeholder="SELECT * FRO..articles..." />
               </folding>
             </state>
           </provider>
@@ -613,14 +612,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/AjaxController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="43" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.56122446" vertical-offset="180" max-vertical-offset="945">
+        <state line="31" column="178" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.33163264" vertical-offset="195" max-vertical-offset="945">
           <folding>
-            <marker date="1442394863000" expanded="true" signature="230:283" placeholder="SELECT * FRO..articles..." />
-            <marker date="1442394863000" expanded="true" signature="455:688" placeholder="SELECT A.art..articles..." />
-            <marker date="1442394863000" expanded="true" signature="863:1034" placeholder="SELECT * FRO..players..." />
-            <marker date="1442394863000" expanded="true" signature="1210:1233" placeholder="SELECT * FRO..schedules..." />
-            <marker date="1442394863000" expanded="true" signature="1407:1427" placeholder="SELECT * FRO..images..." />
-            <marker date="1442394863000" expanded="true" signature="1603:1647" placeholder="SELECT * FRO..articles..." />
+            <marker date="1442395016000" expanded="true" signature="230:283" placeholder="SELECT * FRO..articles..." />
+            <marker date="1442395016000" expanded="true" signature="455:688" placeholder="SELECT A.art..articles..." />
+            <marker date="1442395016000" expanded="true" signature="863:1023" placeholder="SELECT * FRO..players..." />
+            <marker date="1442395016000" expanded="true" signature="1199:1222" placeholder="SELECT * FRO..schedules..." />
+            <marker date="1442395016000" expanded="true" signature="1396:1416" placeholder="SELECT * FRO..images..." />
+            <marker date="1442395016000" expanded="true" signature="1592:1636" placeholder="SELECT * FRO..articles..." />
           </folding>
         </state>
       </provider>
