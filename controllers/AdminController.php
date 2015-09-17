@@ -77,9 +77,10 @@ Class AdminController{
 
     public function postAction(){
         $db = new Database();
+        $textToStore = nl2br(htmlentities($_POST["content"]), ENT_QUOTES);
         if(isset($_POST["post_article_button"]) && !empty($_POST["headline"]) && !empty($_POST["content"])){
             $query = "INSERT INTO articles(headline, content) VALUES (:headline, :content)";
-            $params = [':headline' => htmlentities($_POST["headline"]), ':content' => htmlentities($_POST["content"])];
+            $params = [':headline' => htmlentities($_POST["headline"]), ':content' => $textToStore];
             $post = $db->insertRow($query, $params);
             $last = $db->lastId;
             $query2 = "INSERT INTO articles_images(article_id, image_id) VALUES (:article_id, :image_id)";
