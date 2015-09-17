@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81a0e563-8130-493b-8c27-1d06d782a624" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/AdminController.php" afterPath="$PROJECT_DIR$/controllers/AdminController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/AjaxController.php" afterPath="$PROJECT_DIR$/controllers/AjaxController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/ajax.js" afterPath="$PROJECT_DIR$/js/ajax.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -39,24 +39,16 @@
       <file leaf-file-name="AdminController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/AdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="38" selection-start="4110" selection-end="4110" vertical-scroll-proportion="-58.75" vertical-offset="0" max-vertical-offset="1680">
-              <folding>
-                <marker date="1442389886000" expanded="true" signature="392:432" placeholder="INSERT INTO ..." />
-                <marker date="1442389886000" expanded="true" signature="1223:1356" placeholder="INSERT INTO ..." />
-                <marker date="1442389886000" expanded="true" signature="1961:2115" placeholder="INSERT INTO ..." />
-                <marker date="1442389886000" expanded="true" signature="2536:2614" placeholder="INSERT INTO ..." />
-                <marker date="1442389886000" expanded="true" signature="3400:3471" placeholder="SELECT * FRO..users..." />
-                <marker date="1442389886000" expanded="true" signature="4001:4069" placeholder="INSERT INTO ..." />
-                <marker date="1442389886000" expanded="true" signature="4289:4370" placeholder="INSERT INTO ..." />
-              </folding>
+            <state line="94" column="38" selection-start="4110" selection-end="4110" vertical-scroll-proportion="0.0" vertical-offset="1410" max-vertical-offset="1680">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="14" selection-start="1513" selection-end="1513" vertical-scroll-proportion="0.9292035" vertical-offset="0" max-vertical-offset="1170">
+            <state line="10" column="39" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1170">
               <folding />
             </state>
           </provider>
@@ -82,10 +74,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajax.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AjaxController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/AjaxController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="0" selection-start="1464" selection-end="1464" vertical-scroll-proportion="-10.166667" vertical-offset="416" max-vertical-offset="1065">
+              <folding>
+                <marker date="1442499703000" expanded="true" signature="230:283" placeholder="SELECT * FRO..articles..." />
+                <marker date="1442499703000" expanded="true" signature="455:688" placeholder="SELECT A.art..articles..." />
+                <marker date="1442499703000" expanded="true" signature="863:1028" placeholder="SELECT * FRO..players..." />
+                <marker date="1442499703000" expanded="true" signature="1204:1227" placeholder="SELECT * FRO..schedules..." />
+                <marker date="1442499703000" expanded="true" signature="1401:1421" placeholder="SELECT * FRO..images..." />
+                <marker date="1442499703000" expanded="true" signature="1602:1640" placeholder="SELECT * FRO..images..." />
+                <marker date="1442499703000" expanded="true" signature="1816:1860" placeholder="SELECT * FRO..articles..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajax.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/ajax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="195" column="42" selection-start="5691" selection-end="5691" vertical-scroll-proportion="0.0" vertical-offset="371" max-vertical-offset="3600">
+            <state line="91" column="40" selection-start="2568" selection-end="2568" vertical-scroll-proportion="0.025728988" vertical-offset="1350" max-vertical-offset="3945">
               <folding />
             </state>
           </provider>
@@ -94,7 +103,7 @@
       <file leaf-file-name="Database.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="898" selection-end="898" vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="1110">
+            <state line="33" column="0" selection-start="898" selection-end="898" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1185">
               <folding />
             </state>
           </provider>
@@ -103,7 +112,7 @@
       <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="31" selection-start="293" selection-end="293" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="1110">
+            <state line="14" column="31" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1185">
               <folding />
             </state>
           </provider>
@@ -129,7 +138,6 @@
         <option value="$PROJECT_DIR$/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/views/inget.php" />
         <option value="$PROJECT_DIR$/views/admin.php" />
-        <option value="$PROJECT_DIR$/controllers/AjaxController.php" />
         <option value="$PROJECT_DIR$/views/galleri.php" />
         <option value="$PROJECT_DIR$/js/jabronis.js" />
         <option value="$PROJECT_DIR$/views/contact.php" />
@@ -140,8 +148,9 @@
         <option value="$PROJECT_DIR$/views/spelschema.php" />
         <option value="$PROJECT_DIR$/css/maincss.css" />
         <option value="$PROJECT_DIR$/views/index.php" />
-        <option value="$PROJECT_DIR$/js/ajax.js" />
         <option value="$PROJECT_DIR$/controllers/AdminController.php" />
+        <option value="$PROJECT_DIR$/controllers/AjaxController.php" />
+        <option value="$PROJECT_DIR$/js/ajax.js" />
       </list>
     </option>
   </component>
@@ -149,7 +158,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="722" />
+    <option name="height" value="716" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -177,6 +186,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -205,13 +215,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -246,7 +255,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="722" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="716" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -548,13 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/AjaxController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="1088" selection-end="1088" vertical-scroll-proportion="-7.8333335" vertical-offset="277" max-vertical-offset="945">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/galleri.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="108" selection-end="108" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="330">
@@ -608,43 +610,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="31" selection-start="293" selection-end="293" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="1110">
+        <state line="14" column="31" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1185">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="898" selection-end="898" vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="1110">
+        <state line="33" column="0" selection-start="898" selection-end="898" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1185">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="38" selection-start="4110" selection-end="4110" vertical-scroll-proportion="-58.75" vertical-offset="0" max-vertical-offset="1680">
-          <folding>
-            <marker date="1442389886000" expanded="true" signature="392:432" placeholder="INSERT INTO ..." />
-            <marker date="1442389886000" expanded="true" signature="1223:1356" placeholder="INSERT INTO ..." />
-            <marker date="1442389886000" expanded="true" signature="1961:2115" placeholder="INSERT INTO ..." />
-            <marker date="1442389886000" expanded="true" signature="2536:2614" placeholder="INSERT INTO ..." />
-            <marker date="1442389886000" expanded="true" signature="3400:3471" placeholder="SELECT * FRO..users..." />
-            <marker date="1442389886000" expanded="true" signature="4001:4069" placeholder="INSERT INTO ..." />
-            <marker date="1442389886000" expanded="true" signature="4289:4370" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/ajax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="195" column="42" selection-start="5691" selection-end="5691" vertical-scroll-proportion="0.0" vertical-offset="371" max-vertical-offset="3600">
+        <state line="94" column="38" selection-start="4110" selection-end="4110" vertical-scroll-proportion="0.0" vertical-offset="1410" max-vertical-offset="1680">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="14" selection-start="1513" selection-end="1513" vertical-scroll-proportion="0.9292035" vertical-offset="0" max-vertical-offset="1170">
+        <state line="10" column="39" selection-start="491" selection-end="491" vertical-scroll-proportion="-0.0" vertical-offset="150" max-vertical-offset="1170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/AjaxController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="0" selection-start="1464" selection-end="1464" vertical-scroll-proportion="-10.166667" vertical-offset="416" max-vertical-offset="1065">
+          <folding>
+            <marker date="1442499703000" expanded="true" signature="230:283" placeholder="SELECT * FRO..articles..." />
+            <marker date="1442499703000" expanded="true" signature="455:688" placeholder="SELECT A.art..articles..." />
+            <marker date="1442499703000" expanded="true" signature="863:1028" placeholder="SELECT * FRO..players..." />
+            <marker date="1442499703000" expanded="true" signature="1204:1227" placeholder="SELECT * FRO..schedules..." />
+            <marker date="1442499703000" expanded="true" signature="1401:1421" placeholder="SELECT * FRO..images..." />
+            <marker date="1442499703000" expanded="true" signature="1602:1640" placeholder="SELECT * FRO..images..." />
+            <marker date="1442499703000" expanded="true" signature="1816:1860" placeholder="SELECT * FRO..articles..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="40" selection-start="2568" selection-end="2568" vertical-scroll-proportion="0.025728988" vertical-offset="1350" max-vertical-offset="3945">
           <folding />
         </state>
       </provider>

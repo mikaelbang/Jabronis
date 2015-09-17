@@ -9,6 +9,8 @@ $(document).ready(function(){
     setTimeout(players(),1);
     setTimeout(images(),1);
     setTimeout(schedules(),1);
+    setTimeout(galleryImages(),1);
+
 
 });
 
@@ -88,6 +90,27 @@ function images(){
                 if(data.hasOwnProperty(key)){
                     //console.log(data[key]);
                     addImage(data[key]);
+                }
+            }
+        }
+    );
+}
+
+function galleryImages(){
+    $.ajax({
+        url: "/jabronis/ajax/getGalleryImages" ,
+        type: "GET",
+        dataType: "json"
+    })
+        .error(
+        function(){
+            console.log("Error: fuck");
+        })
+        .success(
+        function(data){
+            for(var key in data){
+                if(data.hasOwnProperty(key)){
+                    //console.log(data[key]);
                     addGalleryImage(data[key]);
                 }
             }
