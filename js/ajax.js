@@ -248,10 +248,3 @@ function addAllArticles(data){
 
     $(".articleTable").append(t);
 }
-
-
-
-
-
-
-
